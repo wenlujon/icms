@@ -1,0 +1,42 @@
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: white;
+}
+div#gallery-settings,
+div#gallery-settings *,
+table.describe tr.url,
+table.describe tr.align,
+table.describe tr.image-size,
+td.savesend input.button {
+  display: none;
+}
+
+body#media-upload #media-items .menu_order input.menu_order_input {
+  padding: 1px;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+
+body#media-upload #media-items {
+  width: auto;
+}
+
+.media-item .describe input[type="text"],
+.media-item .describe textarea {
+  width: 100%;
+}
+
+body#media-upload #gallery-form .widefat {
+  display: none;
+}
+
+body#media-upload #gallery-form .imgedit-settings {
+  float: right;
+}
+
+body#media-upload #gallery-form .imgedit-panel-content {
+  float: left;
+}

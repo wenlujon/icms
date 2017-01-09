@@ -1,0 +1,882 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Fancy Gallery"
+msgstr ""
+
+#. Short description.
+msgid "Supercharged image gallery management tool with touch-enabled, responsive, mobile-friendly image lightbox for WordPress!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Gallery single view"
+msgstr ""
+
+#. Screenshot description.
+msgid "Gallery lightbox"
+msgstr ""
+
+#. Screenshot description.
+msgid "Add a new gallery"
+msgstr ""
+
+#. Screenshot description.
+msgid "Manage gallery categories"
+msgstr ""
+
+#. Screenshot description.
+msgid "Edit a category"
+msgstr ""
+
+#. Screenshot description.
+msgid "Edit an image"
+msgstr ""
+
+#. Screenshot description.
+msgid "Integrate your galleries to your navigation menus"
+msgstr ""
+
+#. Screenshot description.
+msgid "Change details of several images"
+msgstr ""
+
+#. Screenshot description.
+msgid "The lightbox settings"
+msgstr ""
+
+#. Found in description header.
+msgid "Lightbox behavior"
+msgstr ""
+
+#. Found in description header.
+msgid "Kick-Start"
+msgstr ""
+
+#. Found in description header.
+msgid "Gallery management features"
+msgstr ""
+
+#. Found in description header.
+msgid "Lightbox features"
+msgstr ""
+
+#. Found in description header.
+msgid "General features"
+msgstr ""
+
+#. Found in description header.
+msgid "Gallery shortcode"
+msgstr ""
+
+#. Found in description header.
+msgid "Settings"
+msgstr ""
+
+#. Found in description header.
+msgid "Gallery Templates"
+msgstr ""
+
+#. Found in description header.
+msgid "Questions and support requests"
+msgstr ""
+
+#. Found in description header.
+msgid "Language"
+msgstr ""
+
+#. Found in description header.
+msgid "Translate this plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "Limitations of the lite version"
+msgstr ""
+
+#. Found in description list item.
+msgid "Organize image galleries separated from posts or pages"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Centralized gallery management</strong>. Enjoy a single location where you can see and manage all your galleries"
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically generated <strong>index page with all galleries</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Every gallery has its own page with unique URL"
+msgstr ""
+
+#. Found in description list item.
+msgid "Taxonomies to classify your galleries: <strong>Categories, Tags, Events, Places, Dates, Persons, Photographers</strong>.¹ (Need more? Ask us!)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Both tags and categories are disjunct from your post tags and post categories"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports gallery <strong>comments</strong>²"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports <strong>featured images</strong> as gallery thumbnails²"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports <strong>excerpts</strong> for your uploaded galleries (the same way you already know from regular posts)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Excerpts can contain text description and a random set of preview images"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports WordPress <strong>user rights</strong> and capabilities¹"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports the <strong>WordPress menus</strong> and enables you to add all components of your galleries to any menu"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Import and export</strong> directly via the official \"<a href=\"https://wordpress.org/plugins/wordpress-importer/\">WordPress Importer</a>\" by Automattic Inc."
+msgstr ""
+
+#. Found in description list item.
+msgid "Javascript lightbox support for <strong>all linked images</strong> on your website"
+msgstr ""
+
+#. Found in description list item.
+msgid "Has \"Previous\" and \"Next\" buttons"
+msgstr ""
+
+#. Found in description list item.
+msgid "Shows image title and description"
+msgstr ""
+
+#. Found in description list item.
+msgid "Lightbox is <strong>touch-enabled, responsive and mobile-friendly</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports <strong>Swipe function</strong> for touch screens – works with every smart phone and tablet"
+msgstr ""
+
+#. Found in description list item.
+msgid "Awesome image <strong>slideshow</strong> function"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Indicator thumbnail images</strong> below the full size image"
+msgstr ""
+
+#. Found in description list item.
+msgid "Uses the <strong>full screen</strong> size for presenting your image"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>SEO conform</strong> URL structure for all kind of pages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports <strong>WPML</strong> flawless"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports the WordPress theme template hierarchy and the parent-child-theme paradigm"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports <strong>user defined HTML templates</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports <strong>RSS feeds</strong> for the gallery index and for the comments of each gallery"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom <strong>thumbnail sizes</strong> and <strong>color effects</strong>¹"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Fully compatible</strong> with all existing themes with archive template"
+msgstr ""
+
+#. Found in description list item.
+msgid "Template engine to display your galleries in different styles"
+msgstr ""
+
+#. Found in description list item.
+msgid "Widget to display random images from your galleries in the sidebar¹"
+msgstr ""
+
+#. Found in description list item.
+msgid "Widget to display the gallery taxonomies as list or cloud in the sidebar¹"
+msgstr ""
+
+#. Found in description list item.
+msgid "Converts all galleries in <strong>valid HTML5 blocks</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Completely translatable</strong> - .pot file is included"
+msgstr ""
+
+#. Found in description list item.
+msgid "Includes a <strong>bunch of filters</strong> to give you the control of the behavior of this piece of code"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Clean and intuitive</strong> user interface"
+msgstr ""
+
+#. Found in description list item.
+msgid "Works great with <strong>WordPress Multisite</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Personal <strong>one-on-one real-time support</strong> by the developer¹"
+msgstr ""
+
+#. Found in description list item.
+msgid "No ads or branding anywhere - perfect white label solution¹"
+msgstr ""
+
+#. Found in description list item.
+msgid "If it is for your own website put it in /wp-content/fancy-gallery-templates."
+msgstr ""
+
+#. Found in description list item.
+msgid "If you are a theme author just put in your theme (max one level deep)."
+msgstr ""
+
+#. Found in description list item.
+msgid "If you are a plugin developer use the \"fancy_gallery_template_files\" to add template files from anywhere."
+msgstr ""
+
+#. Found in description list item.
+msgid "Absolutely not recommended: in the \"templates/\" folder of the plugin itself."
+msgstr ""
+
+#. Found in description list item.
+msgid "This Plugin is available in English."
+msgstr ""
+
+#. Found in description list item.
+msgid "Diese Erweiterung ist in Deutsch verfügbar. (<a href=\"http://UlrikeSeddig.de/\">Ulrike Seddig</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Plugin disponible en Español. (<a href=\"http://www.versus.es/\">Guillermo Gozalbes</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Este plugin está disponível em português - Brasil. (Ramiro Modica)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ce plugin est disponible en français. (Thomas Schlesser)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ovaj plug-in je takodje dostupan na Srpsko-Hrvatskom. (<a href=\"http://webhostinggeeks.com/\">Andrijana Nikolic / WebHostingGeeks</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Copy it."
+msgstr ""
+
+#. Found in description list item.
+msgid "Rename it (to your language code)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Translate everything."
+msgstr ""
+
+#. Found in description list item.
+msgid "Send it via E-Mail to &lt;Mail [@t] <a href=\"http://DennisHoppe.de\">DennisHoppe</a> [dot] de&gt;."
+msgstr ""
+
+#. Found in description list item.
+msgid "Thats it. Thank you! =)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Fancy Gallery is <em>the</em> most innovative state of the art <strong>WordPress Gallery Management tool</strong> which enables you to <strong>organize image galleries</strong> easily in your WordPress backend. Furthermore this gallery plugin adds a beautiful awesome <strong>javascript lightbox effect</strong> (touch-enabled, responsive, optimized for both mobile and desktop web browsers) to all links pointing to an image anywhere on your website. This includes images in your posts, galleries, pages, sidebar widgets and anywhere else on your website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All links - regardless if text or image - pointing to an image will automatically opened in a <strong>responsive lightbox</strong>. You do not need to care about any tag attributes or link classes – the plugins thinks about that for you. When using the [gallery] shortcode the images will get a <strong>\"previous\", \"next\" and a slideshow button</strong>. The gallery itself will be converted to a <strong>valid HTML5 section</strong> - even if your theme does not support HTML5 galleries yet."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read the feature lists below or <a href=\"https://wordpress.org/plugins/fancy-gallery/screenshots/\">take an eye on the screenshots</a>!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Of course you can use \"exclude\" and \"include\" parameters in your [gallery] shortcode like you already know from the traditional gallery code."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can find the settings page in your Dashboard -&gt; Settings -&gt; Fancy Gallery."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To create your own gallery template you only need elementary HTML and PHP knowledge. Just start by creating a new HTML file with the following example header with the template details."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can place the template in these folders:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please use the support forum on WordPress.org only for this free lite version of the plugin. For the pro version there is a separate support package available. <em>Please do not use the WordPress.org support forum for questions about the pro version</em> or questions about my services! Of course you can hire me for consulting, support, programming and customizations at any time."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you have translated this plugin in your language feel free to send us the language file (.po file) via E-Mail with your name and this translated sentence: \"This plug-in is available in %YOUR_LANGUAGE_NAME%.\" We will add it to the plug-in."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can find the <em>Translation.pot</em> file in the <em>language/</em> folder in the plugin directory."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There are no real limitations in this version except the number of galleries you can organize within the gallery management tool. The maximal number of galleries is limited to three but of course you can use the traditional galleries in your posts and pages <em>without</em> any limitations!"
+msgstr ""
+
+#. Found in installation header.
+msgid "Minimum Requirements"
+msgstr ""
+
+#. Found in installation header.
+msgid "Automatic installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Updating"
+msgstr ""
+
+#. Found in installation list item.
+msgid "WordPress 3.6 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "PHP version 5.3 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "MySQL version 5.0 or greater"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic installation is the easiest option as WordPress handles the file transfers itself and you do not need to leave your web browser. To do an automatic install of Fancy Gallery, log in to your WordPress dashboard, navigate to the plugins menu and click \"Add New\"."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "In the search field type \"Fancy Gallery\" and click \"Search plugins\". Once you have found my gallery plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking \"Install Now\"."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The manual installation method involves downloading my gallery plugin and uploading it to your web server via your favorite FTP application. The WordPress codex contains <a href=\"http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation\">instructions on how to do this here</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic updates should work like a charm; as always though, ensure you backup your site just in case."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed PHP 5.2 check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Implemented static I18n translation function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved the classes and widgets to separated folders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated i18n class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: JavaScript can be loaded in header now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Lightbox components"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed ID attribute from blueimp-gallery container"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Translations Deutsch und Deutsch (Sie)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed tab styles, button texts and image import view styles in images meta box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Converted the i18n class to static"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added default widgets titles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated lightbox library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched: Changed translation file loading hook to \"init\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Serbo-Croatian translation file by <a href=\"http://webhostinggeeks.com/\">Andrijana Nikolic / WebHostingGeeks</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for template tags \"the_category()\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for template tags \"the_tags()\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added custom fields support to gallery post type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched padding for indicator thumbnails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated taxonomy link structure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added asynchronous-loading-options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rollback: Removed all banners to the pro version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added upgrade metabox to edit-gallery-screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rewritten options data handler"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated options page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the title and description background in the lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated blueimp Gallery to 2.14.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: taxonomy user rights for managing gallery taxonomies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Array_Merge issues for meta data handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Image order in Edit Gallery view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: XSS issue in the options page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Options page slug is sanitized now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Settings warning in taxonomy and taxonomy cloud widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the Install_Template() function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning in library import tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed stylesheet in library import tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning in featured image meta box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set background color for images meta box to white"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added warning if PHP version is lower than 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WPML Workaround for translated post type slugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added padding style attribute to collage template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Undefined post object in the save meta box function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Made meta box hover texts translatable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Gallery items can contain images from other posts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Classify images within the same post content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: input name of the meta box fields do not contain backslashes anymore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Does not use the image caption as description anymore if the description is not set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched: permalink for taxonomies were rewritten on plugin activation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched HTML5-gallery style sheet to work with older themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched Collage gallery template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed German translation strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed deprecated jQuery \"live\" function call"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced lightbox with a new responsive one"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced admin menu icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Completely re-factored PHP code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the edit image section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made the lightbox library optional"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The plugin loads the stylesheets asynchronous now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added /wp-content/fancy-gallery-templates to the list of template include paths"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated jQuery Mousewheel to 1.3.11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated jQuery Livequery to 1.3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed PHP notice on import tab for images without parent"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Merged jQuery Lightbox repository from 1.3.1 to 1.3.35"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the whole backend and added more valuable features to the lite version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Warnings on options page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved the Register Widget function to the plugin itself"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: gallery shortcode without attributes shows the images of the current post now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the responsive design of the edit-screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched the Fancy-Fancy template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made the FancyBox 1.3.4 the default lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the structure so you can easily add more other lightboxes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched the options page / meta boxes with the old options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete roll back to FancyBox 1.3.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optional FancyBox 2.x from external CDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Fancybox JS library to the latest Git Hub state"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Adminbar fix for top control buttons of the lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Fancybox to version 2.1.5:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Broken slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Parent option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Retina graphics and retina display support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved \"lock\" feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made options page responsive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added French translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Merged all styles via SASS to fancybox.css"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched z-index bug for Twenty Eleven theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched default template styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Gallery generate code and parameters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed \"Image Order\" problem in manually created galleries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the \"Import to gallery\" tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed some deprecated files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed image size bug in Thumbnails-Share-Button template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added overflow style to gallery wrappers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fancybox updated, completely rewritten JS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed clear element from \"Thumbnails only\" template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed clear element from default template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Strip_Tags bug in share-button-template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reordered Template files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Template with share buttons inside the image title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the right image margin of the default gallery template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Converted the shortcode in the gallery backend from a <code> element to an  field</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made taxonomy slugs translatable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a management column for each taxonomy to the gallery management page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added some CSS to the default template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed column field from the gallery editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for \"orderby\" field in manually created galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added html trim function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Splitted templates in Code and Style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improved template output cleaning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow URL Slug translation via WPML now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WP 3.5 support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the (Widget) translation bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Eliminated Backslashes in generated URLs (should work with Windows now)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed z-index values for all fancy objects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "renamed library and stylesheet files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed IE6/7/8 Bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed fade-in time of the overlay"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed an IE bug which let the fancy box pop on non-image links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Brazilian-Portuguese translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated mouse wheel library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Everything works fine."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Other Notes"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Fancy Gallery is available as <a href=\"http://dennishoppe.de/en/wordpress-plugins/fancy-gallery\">premium plugin</a> too. In the premium version you can use all options and features which are restricted in the lite version."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Possibly even more important, buying the premium edition gives you access to me and my support team. You can email us your questions about usage of the plugin or your problems in setting it up and we will assist you in no time!"
+msgstr ""

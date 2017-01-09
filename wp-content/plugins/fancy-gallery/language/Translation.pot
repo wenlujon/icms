@@ -1,0 +1,898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy Gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-23 14:40+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe <mail@DennisHoppe.de>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/class.options.php:25
+msgid "Fancy Gallery Options"
+msgstr ""
+
+#: ../classes/class.options.php:26
+msgid "Fancy Gallery"
+msgstr ""
+
+#: ../classes/class.options.php:36
+msgid "Lightbox"
+msgstr ""
+
+#: ../classes/class.options.php:37
+msgid "Templates"
+msgstr ""
+
+#: ../classes/class.options.php:38
+msgid "User rights"
+msgstr ""
+
+#: ../classes/class.options.php:40
+msgid "Taxonomies"
+msgstr ""
+
+#: ../classes/class.options.php:41
+msgid "Gallery \"Excerpts\""
+msgstr ""
+
+#: ../classes/class.options.php:42
+#: ../classes/class.gallery-post-type.php:227
+msgid "Archive Url"
+msgstr ""
+
+#: ../classes/class.options.php:58
+msgid "Error while deleting: "
+msgstr ""
+
+#: ../classes/class.options.php:82
+msgid "Fancy Gallery Settings"
+msgstr ""
+
+#: ../classes/class.options.php:92
+msgid "Template installed."
+msgstr ""
+
+#: ../classes/class.options.php:98
+msgid "Template deleted."
+msgstr ""
+
+#: ../classes/class.options.php:108
+#: ../classes/class.options.php:121
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:94
+msgid "Galleries"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:95
+msgid "Gallery"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:96
+msgid "Add Gallery"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:97
+msgid "New Gallery"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:98
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:99
+msgid "View Gallery"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:100
+msgid "Search Galleries"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:101
+msgid "No Galleries found"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:102
+msgid "No Galleries found in Trash"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:111
+#: ../classes/class.gallery-post-type.php:164
+#: ../classes/class.gallery-post-type.php:194
+msgctxt "URL slug"
+msgid "galleries"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:123
+#, php-format
+msgid "Gallery updated. <a href=\"%s\">View Gallery</a>"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:126
+msgid "Gallery updated."
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:127
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:128
+#, php-format
+msgid "Gallery published. <a href=\"%s\">View Gallery</a>"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:129
+msgid "Gallery saved."
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:130
+msgid "Gallery submitted."
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:131
+#, php-format
+msgid "Gallery scheduled. <a target=\"_blank\" href=\"%s\">View Gallery</a>"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:132
+#, php-format
+msgid "Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview Gallery</a>"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:139
+msgid "Gallery Categories"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:141
+msgid "Categories"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:142
+msgid "Category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:143
+msgid "All Categories"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:144
+msgid "Edit Category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:145
+msgid "View Category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:146
+msgid "Update Category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:147
+msgid "Add New Category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:148
+msgid "New Category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:149
+msgid "Parent Category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:150
+msgid "Parent Category:"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:151
+msgid "Search Categories"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:152
+msgid "Popular Categories"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:153
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:154
+msgid "Add or remove Categories"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:155
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:156
+msgid "No Categories found."
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:164
+#, php-format
+msgctxt "URL slug"
+msgid "%s/category"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:169
+msgid "Gallery Tags"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:171
+msgid "Tags"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:172
+msgid "Tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:173
+msgid "All Tags"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:174
+msgid "Edit Tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:175
+msgid "View Tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:176
+msgid "Update Tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:177
+msgid "Add New Tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:178
+msgid "New Tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:179
+msgid "Parent Tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:180
+msgid "Parent Tag:"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:181
+msgid "Search Tags"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:182
+msgid "Popular Tags"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:183
+msgid "Separate Tags with commas"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:184
+msgid "Add or remove Tags"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:185
+msgid "Choose from the most used Tags"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:186
+msgid "No Tags found."
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:194
+#, php-format
+msgctxt "URL slug"
+msgid "%s/tag"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:230
+#, php-format
+msgid "This is the URL to the archive of this %s."
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:234
+msgid "Archive Feed"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:237
+#, php-format
+msgid "This is the URL to the feed of the archive of this %s."
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:249
+msgid "Upload Images"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:251
+msgid "Import from Library"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:295
+msgid "Images"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:298
+msgid "Excerpt"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:300
+msgid "Template"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:303
+msgid "Owner"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:305
+msgid "Gallery ShortCode"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:306
+msgid "Thumbnails"
+msgstr ""
+
+#: ../classes/class.gallery-post-type.php:343
+msgid "The Attachment was moved to your gallery."
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:20
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:22
+#, php-format
+msgid "This feature is available in the <a href=\"%s\" target=\"_blank\">premium version</a>."
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:23
+msgid "Unlock this feature"
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:24
+#, php-format
+msgid "This setting is changeable in the <a href=\"%s\" target=\"_blank\">premium version</a>."
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:25
+#, php-format
+msgid "Do you need a special taxonomy for your website? No problem! Just <a href=\"%s\" target=\"_blank\">get in touch</a>."
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:26
+#, php-format
+msgid "This widget is available in the <a href=\"%s\" target=\"_blank\">premium version</a>. For now there will be no output in the front end of your website."
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:27
+#, php-format
+msgid "In the <a href=\"%s\" target=\"_blank\">Premium Version of Fancy Gallery</a> you can take advantage of the gallery management without any limitations."
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:31
+msgctxt "Link to the authors website"
+msgid "http://dennishoppe.de/en/wordpress-plugins/fancy-gallery"
+msgstr ""
+
+#: ../classes/class.mocking-bird.php:64
+msgid "&laquo; Back to your galleries"
+msgstr ""
+
+#: ../meta-boxes/show-code.php:2
+msgid "To display this gallery in posts or pages easily you can use the <em>[gallery]</em> Shortcode:"
+msgstr ""
+
+#: ../meta-boxes/show-code.php:4
+msgid "Copy this code to all places where this gallery should appear."
+msgstr ""
+
+#: ../meta-boxes/owner.php:14
+msgid "Changes the owner of this gallery."
+msgstr ""
+
+#: ../meta-boxes/template.php:2
+msgid "Please choose a template to display this gallery."
+msgstr ""
+
+#: ../meta-boxes/template.php:17
+#: ../meta-boxes/template.php:19
+#: ../meta-boxes/excerpt.php:48
+#: ../meta-boxes/excerpt.php:50
+#: ../options-page/templates.php:17
+#: ../options-page/templates.php:19
+msgid "by"
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:4
+msgid "Random Images"
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:7
+msgid "In this mode the excerpt of the gallery will display a set of random images."
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:11
+#: ../options-page/excerpt.php:16
+msgid "Images per excerpt"
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:15
+#: ../options-page/excerpt.php:23
+msgid "Thumbnail width"
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:19
+#: ../options-page/excerpt.php:30
+msgid "Thumbnail height"
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:25
+#: ../meta-boxes/thumbnails.php:21
+msgid "Convert thumbnails to grayscale."
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:29
+#: ../meta-boxes/thumbnails.php:26
+msgid "Negate the thumbnails."
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:33
+msgid "Please choose a template to display the excerpt of this gallery."
+msgstr ""
+
+#: ../meta-boxes/excerpt.php:59
+msgid "Text Excerpt"
+msgstr ""
+
+#: ../meta-boxes/import-images-form.php:61
+#, php-format
+msgid "Image: \"%s\""
+msgstr ""
+
+#: ../meta-boxes/import-images-form.php:63
+#, php-format
+msgid "Belongs to %s: \"%s\""
+msgstr ""
+
+#: ../meta-boxes/import-images-form.php:65
+msgid "Not attached to a post."
+msgstr ""
+
+#: ../meta-boxes/import-images-form.php:68
+msgid "This image belongs to this gallery."
+msgstr ""
+
+#: ../meta-boxes/import-images-form.php:71
+msgid "Import to this gallery"
+msgstr ""
+
+#: ../meta-boxes/thumbnails.php:4
+msgid "These settings affect the appearance of the thumbnail images of this gallery."
+msgstr ""
+
+#: ../meta-boxes/thumbnails.php:9
+msgid "Thumbnail width:"
+msgstr ""
+
+#: ../meta-boxes/thumbnails.php:14
+msgid "Thumbnail height:"
+msgstr ""
+
+#: ../options-page/archive-link.php:5
+#, php-format
+msgid "The Archive link for your Galleries is: <div><a href=\"%1$s\" target=\"_blank\">%1$s</a></div>"
+msgstr ""
+
+#: ../options-page/archive-link.php:8
+#, php-format
+msgid "The Archive Feed for your Galleries is: <div><a href=\"%1$s\" target=\"_blank\">%1$s</a></div>"
+msgstr ""
+
+#: ../options-page/archive-link.php:12
+msgid "Deactivate Archive"
+msgstr ""
+
+#: ../options-page/archive-link.php:15
+msgid "Deactivate the archive feature."
+msgstr ""
+
+#: ../options-page/archive-link.php:16
+msgid "If you tick this box visitors will not be able to navigate through the gallery archive."
+msgstr ""
+
+#: ../options-page/templates.php:4
+msgid "Are you sure you want to delete this template?"
+msgstr ""
+
+#: ../options-page/templates.php:21
+msgid "Delete this template"
+msgstr ""
+
+#: ../options-page/templates.php:21
+msgid "Delete"
+msgstr ""
+
+#: ../options-page/templates.php:23
+#, php-format
+msgid "Found in <em>%s</em>."
+msgstr ""
+
+#: ../options-page/templates.php:29
+msgid "Install a template in ZIP format"
+msgstr ""
+
+#: ../options-page/templates.php:30
+msgid "If you have a template as a .zip archive, you may install it by uploading it here."
+msgstr ""
+
+#: ../options-page/templates.php:31
+msgid "Template as ZIP File"
+msgstr ""
+
+#: ../options-page/templates.php:33
+msgid "Install a template in PHP format"
+msgstr ""
+
+#: ../options-page/templates.php:34
+msgid "If you have a template as a .php file, you may install it by uploading it here."
+msgstr ""
+
+#: ../options-page/templates.php:35
+msgid "Templates PHP File"
+msgstr ""
+
+#: ../options-page/templates.php:37
+msgid "Install template and save all options"
+msgstr ""
+
+#: ../options-page/lightbox.php:9
+#: ../options-page/lightbox.php:20
+#: ../options-page/lightbox.php:31
+#: ../options-page/lightbox.php:42
+#: ../options-page/lightbox.php:53
+msgid "On"
+msgstr ""
+
+#: ../options-page/lightbox.php:10
+#: ../options-page/lightbox.php:21
+#: ../options-page/lightbox.php:32
+#: ../options-page/lightbox.php:43
+#: ../options-page/lightbox.php:54
+msgid "Off"
+msgstr ""
+
+#: ../options-page/lightbox.php:12
+msgid "Turn this off if you do not want to use the included lightbox."
+msgstr ""
+
+#: ../options-page/lightbox.php:17
+msgid "Loop mode"
+msgstr ""
+
+#: ../options-page/lightbox.php:23
+msgid "Enables the user to get from the last image to the first one with the \"Next &raquo;\" button."
+msgstr ""
+
+#: ../options-page/lightbox.php:28
+msgid "Title &amp; Description"
+msgstr ""
+
+#: ../options-page/lightbox.php:34
+msgid "Turn this off if you do not want to display the image title and description in your lightbox."
+msgstr ""
+
+#: ../options-page/lightbox.php:39
+msgid "Close button"
+msgstr ""
+
+#: ../options-page/lightbox.php:45
+msgid "Turn this off if you do not want to display a close button in your lightbox."
+msgstr ""
+
+#: ../options-page/lightbox.php:50
+msgid "Indicator thumbnails"
+msgstr ""
+
+#: ../options-page/lightbox.php:56
+msgid "Turn this off if you do not want to display small preview thumbnails below the lightbox image."
+msgstr ""
+
+#: ../options-page/lightbox.php:61
+msgid "Slideshow speed"
+msgstr ""
+
+#: ../options-page/lightbox.php:64
+#: ../options-page/lightbox.php:81
+msgctxt "Abbr. Milliseconds"
+msgid "ms"
+msgstr ""
+
+#: ../options-page/lightbox.php:65
+msgid "The delay between two images in the slideshow."
+msgstr ""
+
+#: ../options-page/lightbox.php:70
+msgid "Preload images"
+msgstr ""
+
+#: ../options-page/lightbox.php:73
+msgid "The number of images which should be preloaded around the current one."
+msgstr ""
+
+#: ../options-page/lightbox.php:78
+msgid "Animation speed"
+msgstr ""
+
+#: ../options-page/lightbox.php:82
+msgid "The speed of the image change animation."
+msgstr ""
+
+#: ../options-page/lightbox.php:87
+msgid "Stretch images"
+msgstr ""
+
+#: ../options-page/lightbox.php:90
+msgid "No stretching"
+msgstr ""
+
+#: ../options-page/lightbox.php:91
+msgid "Contain"
+msgstr ""
+
+#: ../options-page/lightbox.php:92
+msgid "Cover"
+msgstr ""
+
+#: ../options-page/lightbox.php:94
+msgid "\"Contain\" means to scale the image to the largest size such that both its width and its height can fit the screen."
+msgstr ""
+
+#: ../options-page/lightbox.php:95
+msgid "\"Cover\" means to scale the image to be as large as possible so that the screen is completely covered by the image. Some parts of the image may be cropped and not in view."
+msgstr ""
+
+#: ../options-page/lightbox.php:100
+msgid "Script position"
+msgstr ""
+
+#: ../options-page/lightbox.php:103
+msgid "Footer of the website"
+msgstr ""
+
+#: ../options-page/lightbox.php:104
+msgid "Header of the website"
+msgstr ""
+
+#: ../options-page/lightbox.php:106
+msgid "Please choose the position of the javascript. Footer is recommended. Use \"Header\" if you have trouble to make the lightbox work."
+msgstr ""
+
+#: ../options-page/lightbox.php:111
+msgid "Asynchronous loading"
+msgstr ""
+
+#: ../options-page/lightbox.php:114
+msgid "Load all components asynchronously"
+msgstr ""
+
+#: ../options-page/lightbox.php:115
+msgid "Do not load anything asynchronously"
+msgstr ""
+
+#: ../options-page/lightbox.php:116
+msgid "Load CSS asynchronously only"
+msgstr ""
+
+#: ../options-page/lightbox.php:117
+msgid "Load JavaScripts asynchronously only"
+msgstr ""
+
+#: ../options-page/lightbox.php:119
+msgid "If you are using a HTML/CSS/JS minifier you should disable the asynchronous loading."
+msgstr ""
+
+#: ../options-page/taxonomies.php:4
+msgid "Please select the taxonomies you need to classify your galleries."
+msgstr ""
+
+#: ../options-page/taxonomies.php:14
+#: ../options-page/taxonomies.php:21
+msgid "hierarchical"
+msgstr ""
+
+#: ../options-page/taxonomies.php:18
+msgid "Events"
+msgstr ""
+
+#: ../options-page/taxonomies.php:18
+msgid "Places"
+msgstr ""
+
+#: ../options-page/taxonomies.php:18
+msgid "Dates"
+msgstr ""
+
+#: ../options-page/taxonomies.php:18
+msgid "Persons"
+msgstr ""
+
+#: ../options-page/taxonomies.php:18
+msgid "Photographers"
+msgstr ""
+
+#: ../options-page/excerpt.php:4
+msgid "Usually posts have optional hand-crafted summaries of their content. But galleries do not."
+msgstr ""
+
+#: ../options-page/excerpt.php:5
+msgid "Gallery excerpts are randomly chosen images from a gallery."
+msgstr ""
+
+#: ../options-page/excerpt.php:6
+msgid "These settings may be overridden for individual galleries."
+msgstr ""
+
+#: ../options-page/excerpt.php:11
+msgid "Do not generate excerpts out of random gallery images."
+msgstr ""
+
+#: ../options-page/upgrade.php:3
+msgid "Want to unlock all settings and features? Upgrade to Fancy Gallery Pro!"
+msgstr ""
+
+#: ../options-page/user-rights.php:10
+msgid "Edit and create (own) galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:11
+msgid "Edit others galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:12
+msgid "Edit (own) private galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:13
+msgid "Edit (own) published galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:15
+msgid "Delete (own) galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:16
+msgid "Delete (own) private galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:17
+msgid "Delete (own) published galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:18
+msgid "Delete others galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:20
+msgid "Publish galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:21
+msgid "View (others) private galleries"
+msgstr ""
+
+#: ../options-page/user-rights.php:23
+msgid "Manage taxonomies"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:16
+msgid "Gallery taxonomy cloud"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:17
+msgid "Displays your gallery taxonomies as tag cloud."
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:24
+#: ../widgets/widget.taxonomies.php:16
+#: ../widgets/widget.taxonomies.php:24
+msgid "Gallery taxonomies"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:62
+#: ../widgets/widget.random-images.php:91
+#: ../widgets/widget.taxonomies.php:62
+msgid "Leave blank to use the widget default title."
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:66
+#: ../widgets/widget.taxonomies.php:66
+msgid "Taxonomy:"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:72
+#: ../widgets/widget.taxonomies.php:72
+msgid "Please choose the Taxonomy the widget should display."
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:76
+#: ../widgets/widget.taxonomies.php:76
+msgid "Number of terms:"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:78
+#: ../widgets/widget.taxonomies.php:78
+msgid "Leave blank to show all."
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:84
+#: ../widgets/widget.taxonomies.php:84
+msgid "Term IDs, separated by commas."
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:88
+#: ../widgets/widget.taxonomies.php:93
+msgid "Order by:"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:91
+#: ../widgets/widget.taxonomies.php:96
+msgid "Gallery Count"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:93
+#: ../widgets/widget.taxonomies.php:98
+msgid "Slug"
+msgstr ""
+
+#: ../widgets/widget.taxonomy-cloud.php:98
+#: ../widgets/widget.taxonomies.php:103
+msgid "Order:"
+msgstr ""
+
+#: ../widgets/widget.random-images.php:15
+msgid "Displays some random images from your galleries."
+msgstr ""
+
+#: ../widgets/widget.random-images.php:95
+msgid "Number of Images:"
+msgstr ""
+
+#: ../widgets/widget.random-images.php:97
+msgid "Leave blank (or \"0\") to show all."
+msgstr ""
+
+#: ../widgets/widget.random-images.php:101
+msgid "Link target:"
+msgstr ""
+
+#: ../widgets/widget.random-images.php:103
+msgid "Fullsize Image"
+msgstr ""
+
+#: ../widgets/widget.random-images.php:104
+msgid "Image Gallery"
+msgstr ""
+
+#: ../widgets/widget.random-images.php:129
+msgid "Please choose a template to display this widget."
+msgstr ""
+
+#: ../widgets/widget.taxonomies.php:17
+msgid "Displays your gallery taxonomies like categories, tags, events, photographers, etc."
+msgstr ""
+
+#: ../widgets/widget.taxonomies.php:89
+msgid "Show Gallery counts."
+msgstr ""
+

@@ -1,0 +1,1453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy Gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-23 14:39+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe <mail@DennisHoppe.de>\n"
+"Language-Team: Dennis Hoppe <Mail@DennisHoppe.de>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/class.options.php:25
+msgid "Fancy Gallery Options"
+msgstr "Fancy Gallery Einstellungen"
+
+#: ../classes/class.options.php:26
+msgid "Fancy Gallery"
+msgstr "Fancy Gallery"
+
+#: ../classes/class.options.php:36
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: ../classes/class.options.php:37
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: ../classes/class.options.php:38
+msgid "User rights"
+msgstr "Benutzerrechte"
+
+#: ../classes/class.options.php:40
+msgid "Taxonomies"
+msgstr "Klassifizierungen"
+
+#: ../classes/class.options.php:41
+msgid "Gallery \"Excerpts\""
+msgstr "Galerie-\"Auszug\""
+
+#: ../classes/class.options.php:42
+#: ../classes/class.gallery-post-type.php:227
+msgid "Archive Url"
+msgstr "Archiv Url"
+
+#: ../classes/class.options.php:58
+msgid "Error while deleting: "
+msgstr "Fehler während des Löschvorgangs:"
+
+#: ../classes/class.options.php:82
+msgid "Fancy Gallery Settings"
+msgstr "Einstellungen &rsaquo; Fancy Gallery"
+
+#: ../classes/class.options.php:92
+msgid "Template installed."
+msgstr "Vorlage installiert."
+
+#: ../classes/class.options.php:98
+msgid "Template deleted."
+msgstr "Vorlage gelöscht."
+
+#: ../classes/class.options.php:108
+#: ../classes/class.options.php:121
+#, php-format
+msgid "Toggle panel: %s"
+msgstr "Panel umschalten: %s"
+
+#: ../classes/class.gallery-post-type.php:94
+msgid "Galleries"
+msgstr "Galerien"
+
+#: ../classes/class.gallery-post-type.php:95
+msgid "Gallery"
+msgstr "Galerie"
+
+#: ../classes/class.gallery-post-type.php:96
+msgid "Add Gallery"
+msgstr "Galerie hinzufügen"
+
+#: ../classes/class.gallery-post-type.php:97
+msgid "New Gallery"
+msgstr "Neue Galerie"
+
+#: ../classes/class.gallery-post-type.php:98
+msgid "Edit Gallery"
+msgstr "Galerie bearbeiten"
+
+#: ../classes/class.gallery-post-type.php:99
+msgid "View Gallery"
+msgstr "Galerie ansehen"
+
+#: ../classes/class.gallery-post-type.php:100
+msgid "Search Galleries"
+msgstr "Galerien suchen"
+
+#: ../classes/class.gallery-post-type.php:101
+msgid "No Galleries found"
+msgstr "Keine Galerien gefunden"
+
+#: ../classes/class.gallery-post-type.php:102
+msgid "No Galleries found in Trash"
+msgstr "Keine Galerien im Papierkorb gefunden."
+
+#: ../classes/class.gallery-post-type.php:111
+#: ../classes/class.gallery-post-type.php:164
+#: ../classes/class.gallery-post-type.php:194
+msgctxt "URL slug"
+msgid "galleries"
+msgstr "galerien"
+
+#: ../classes/class.gallery-post-type.php:123
+#, php-format
+msgid "Gallery updated. <a href=\"%s\">View Gallery</a>"
+msgstr "Galerie aktualisiert. <a href=\"%s\">Galerie ansehen</a>"
+
+#: ../classes/class.gallery-post-type.php:126
+msgid "Gallery updated."
+msgstr "Galerie aktualisiert."
+
+#: ../classes/class.gallery-post-type.php:127
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr "Galerie auf den Stand von %s zurückgesetzt"
+
+#: ../classes/class.gallery-post-type.php:128
+#, php-format
+msgid "Gallery published. <a href=\"%s\">View Gallery</a>"
+msgstr "Galerie veröffentlicht. <a href=\"%s\">Galerie ansehen</a>"
+
+#: ../classes/class.gallery-post-type.php:129
+msgid "Gallery saved."
+msgstr "Galerie gespeichert."
+
+#: ../classes/class.gallery-post-type.php:130
+msgid "Gallery submitted."
+msgstr "Galerie eingereicht."
+
+#: ../classes/class.gallery-post-type.php:131
+#, php-format
+msgid "Gallery scheduled. <a target=\"_blank\" href=\"%s\">View Gallery</a>"
+msgstr "Galerie angelegt. <a target=\"_blank\" href=\"%s\">Galerie ansehen</a>"
+
+#: ../classes/class.gallery-post-type.php:132
+#, php-format
+msgid "Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview Gallery</a>"
+msgstr "Entwurf gespeichert. <a target=\"_blank\" href=\"%s\">Galerievorschau</a>"
+
+#: ../classes/class.gallery-post-type.php:139
+msgid "Gallery Categories"
+msgstr "Galeriekategorien"
+
+#: ../classes/class.gallery-post-type.php:141
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../classes/class.gallery-post-type.php:142
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../classes/class.gallery-post-type.php:143
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: ../classes/class.gallery-post-type.php:144
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: ../classes/class.gallery-post-type.php:145
+msgid "View Category"
+msgstr "Kategorie ansehen"
+
+#: ../classes/class.gallery-post-type.php:146
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+#: ../classes/class.gallery-post-type.php:147
+msgid "Add New Category"
+msgstr "Neue Kategorie hinzufügen"
+
+#: ../classes/class.gallery-post-type.php:148
+msgid "New Category"
+msgstr "Neue Kategorie"
+
+#: ../classes/class.gallery-post-type.php:149
+msgid "Parent Category"
+msgstr "Übergeordnete Kategorie"
+
+#: ../classes/class.gallery-post-type.php:150
+msgid "Parent Category:"
+msgstr "Übergeordnete Kategorie:"
+
+#: ../classes/class.gallery-post-type.php:151
+msgid "Search Categories"
+msgstr "Kategorien durchsuchen"
+
+#: ../classes/class.gallery-post-type.php:152
+msgid "Popular Categories"
+msgstr "Häufig verwendete Kategorien"
+
+#: ../classes/class.gallery-post-type.php:153
+msgid "Separate Categories with commas"
+msgstr "Kategorien durch Komma getrennt"
+
+#: ../classes/class.gallery-post-type.php:154
+msgid "Add or remove Categories"
+msgstr "Kategorien hinzufügen oder entfernen"
+
+#: ../classes/class.gallery-post-type.php:155
+msgid "Choose from the most used Categories"
+msgstr "Wähle aus den am meisten verwendeten Kategorien"
+
+#: ../classes/class.gallery-post-type.php:156
+msgid "No Categories found."
+msgstr "Keine Galerien gefunden."
+
+#: ../classes/class.gallery-post-type.php:164
+#, php-format
+msgctxt "URL slug"
+msgid "%s/category"
+msgstr "%s/kategorie"
+
+#: ../classes/class.gallery-post-type.php:169
+msgid "Gallery Tags"
+msgstr "Schlagworte der Galerie "
+
+#: ../classes/class.gallery-post-type.php:171
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: ../classes/class.gallery-post-type.php:172
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: ../classes/class.gallery-post-type.php:173
+msgid "All Tags"
+msgstr "Alle Schlagworte"
+
+#: ../classes/class.gallery-post-type.php:174
+msgid "Edit Tag"
+msgstr "Schlagwort bearbeiten"
+
+#: ../classes/class.gallery-post-type.php:175
+msgid "View Tag"
+msgstr "Schlagwort ansehen"
+
+#: ../classes/class.gallery-post-type.php:176
+msgid "Update Tag"
+msgstr "Schlagwort aktualisieren"
+
+#: ../classes/class.gallery-post-type.php:177
+msgid "Add New Tag"
+msgstr "Neues Schlagwort hinzufügen"
+
+#: ../classes/class.gallery-post-type.php:178
+msgid "New Tag"
+msgstr "Neues Schlagwort"
+
+#: ../classes/class.gallery-post-type.php:179
+msgid "Parent Tag"
+msgstr "Übergeordnetes Schlagwort"
+
+#: ../classes/class.gallery-post-type.php:180
+msgid "Parent Tag:"
+msgstr "Übergeordnetes Schlagwort:"
+
+#: ../classes/class.gallery-post-type.php:181
+msgid "Search Tags"
+msgstr "Schlagworte durchsuchen"
+
+#: ../classes/class.gallery-post-type.php:182
+msgid "Popular Tags"
+msgstr "Häufig verwendete Schlagworte"
+
+#: ../classes/class.gallery-post-type.php:183
+msgid "Separate Tags with commas"
+msgstr "Schlagworte durch Komma getrennt"
+
+#: ../classes/class.gallery-post-type.php:184
+msgid "Add or remove Tags"
+msgstr "Schlagworte hinzufügen oder entfernen"
+
+#: ../classes/class.gallery-post-type.php:185
+msgid "Choose from the most used Tags"
+msgstr "Wähle aus den am meisten verwendeten Schlagworten"
+
+#: ../classes/class.gallery-post-type.php:186
+msgid "No Tags found."
+msgstr "Keine Schlagworte gefunden."
+
+#: ../classes/class.gallery-post-type.php:194
+#, php-format
+msgctxt "URL slug"
+msgid "%s/tag"
+msgstr "%s/schlagwort"
+
+#: ../classes/class.gallery-post-type.php:230
+#, php-format
+msgid "This is the URL to the archive of this %s."
+msgstr "Das ist die URL des %s-Archives."
+
+#: ../classes/class.gallery-post-type.php:234
+msgid "Archive Feed"
+msgstr "Archiv Feed"
+
+#: ../classes/class.gallery-post-type.php:237
+#, php-format
+msgid "This is the URL to the feed of the archive of this %s."
+msgstr "Das ist die URL zum RSS Feed des %s-Archives."
+
+#: ../classes/class.gallery-post-type.php:249
+msgid "Upload Images"
+msgstr "Bilder hochladen"
+
+#: ../classes/class.gallery-post-type.php:251
+msgid "Import from Library"
+msgstr "Aus Bibliothek importieren"
+
+#: ../classes/class.gallery-post-type.php:295
+msgid "Images"
+msgstr "Bilder"
+
+#: ../classes/class.gallery-post-type.php:298
+msgid "Excerpt"
+msgstr "Vorschau"
+
+#: ../classes/class.gallery-post-type.php:300
+msgid "Template"
+msgstr "Vorlage"
+
+#: ../classes/class.gallery-post-type.php:303
+msgid "Owner"
+msgstr "Eigentümer"
+
+#: ../classes/class.gallery-post-type.php:305
+msgid "Gallery ShortCode"
+msgstr "Galerie-Shortcode"
+
+#: ../classes/class.gallery-post-type.php:306
+msgid "Thumbnails"
+msgstr "Vorschaubilder"
+
+#: ../classes/class.gallery-post-type.php:343
+msgid "The Attachment was moved to your gallery."
+msgstr "Das Bild wurde in deine Galerie verschoben."
+
+#: ../classes/class.mocking-bird.php:20
+msgid "Upgrade to Pro"
+msgstr "Upgrade auf Pro-Version"
+
+#: ../classes/class.mocking-bird.php:22
+#, php-format
+msgid "This feature is available in the <a href=\"%s\" target=\"_blank\">premium version</a>."
+msgstr "Diese Funktion ist in der <a href=\"%s\" target=\"_blank\">Pro-Version</a> verfügbar."
+
+#: ../classes/class.mocking-bird.php:23
+msgid "Unlock this feature"
+msgstr "Diese Funktion freischalten"
+
+#: ../classes/class.mocking-bird.php:24
+#, php-format
+msgid "This setting is changeable in the <a href=\"%s\" target=\"_blank\">premium version</a>."
+msgstr "Diese Einstellung ist in der <a href=\"%s\" target=\"_blank\">Pro-Version</a> änderbar."
+
+#: ../classes/class.mocking-bird.php:25
+#, php-format
+msgid "Do you need a special taxonomy for your website? No problem! Just <a href=\"%s\" target=\"_blank\">get in touch</a>."
+msgstr "Brauchen Sie eine spezielle Klassifizierung? Kein Problem. <a href=\"%s\" target=\"_blank\">Fragen Sie einfach danach</a>."
+
+#: ../classes/class.mocking-bird.php:26
+#, php-format
+msgid "This widget is available in the <a href=\"%s\" target=\"_blank\">premium version</a>. For now there will be no output in the front end of your website."
+msgstr "Dieses Widget ist in der <a href=\"%s\" target=\"_blank\">Pro-Version</a> verfügbar. In dieser Version wird es keine Ausgabe generieren."
+
+#: ../classes/class.mocking-bird.php:27
+#, php-format
+msgid "In the <a href=\"%s\" target=\"_blank\">Premium Version of Fancy Gallery</a> you can take advantage of the gallery management without any limitations."
+msgstr "In der <a href=\"%s\" target=\"_blank\">Premium Version von Fancy Gallery</a> kannst du alle Vorteile des Galerie-Managements ohne Einschränkungen nutzen."
+
+#: ../classes/class.mocking-bird.php:31
+msgctxt "Link to the authors website"
+msgid "http://dennishoppe.de/en/wordpress-plugins/fancy-gallery"
+msgstr "http://dennishoppe.de/wordpress-plugins/fancy-gallery"
+
+#: ../classes/class.mocking-bird.php:64
+msgid "&laquo; Back to your galleries"
+msgstr "&laquo; Zurück zu deinen Galerien"
+
+#: ../meta-boxes/show-code.php:2
+msgid "To display this gallery in posts or pages easily you can use the <em>[gallery]</em> Shortcode:"
+msgstr "Um diese Galerie in einem Artikel oder auf einer Seite darzustellen verwendest du einfach diesen <em>[gallery]</em> Shortcode:"
+
+#: ../meta-boxes/show-code.php:4
+msgid "Copy this code to all places where this gallery should appear."
+msgstr "Kopiere diesen Code an alle Stellen, an denen diese Galerie erscheinen soll."
+
+#: ../meta-boxes/owner.php:14
+msgid "Changes the owner of this gallery."
+msgstr "Verändert den Eigentümer dieser Galerie."
+
+#: ../meta-boxes/template.php:2
+msgid "Please choose a template to display this gallery."
+msgstr "Bitte wähle eine Vorlage zur Anzeige dieser Galerie aus."
+
+#: ../meta-boxes/template.php:17
+#: ../meta-boxes/template.php:19
+#: ../meta-boxes/excerpt.php:48
+#: ../meta-boxes/excerpt.php:50
+#: ../options-page/templates.php:17
+#: ../options-page/templates.php:19
+msgid "by"
+msgstr "von"
+
+#: ../meta-boxes/excerpt.php:4
+msgid "Random Images"
+msgstr "Zufällige Bilder"
+
+#: ../meta-boxes/excerpt.php:7
+msgid "In this mode the excerpt of the gallery will display a set of random images."
+msgstr "In diesem Modus wird die Galerievorschau als eine Reihe zufälliger Bilder angezeigt."
+
+#: ../meta-boxes/excerpt.php:11
+#: ../options-page/excerpt.php:16
+msgid "Images per excerpt"
+msgstr "Bilder in der Vorschau"
+
+#: ../meta-boxes/excerpt.php:15
+#: ../options-page/excerpt.php:23
+msgid "Thumbnail width"
+msgstr "Breite des Vorschaubildes"
+
+#: ../meta-boxes/excerpt.php:19
+#: ../options-page/excerpt.php:30
+msgid "Thumbnail height"
+msgstr "Höhe des Vorschaubildes"
+
+#: ../meta-boxes/excerpt.php:25
+#: ../meta-boxes/thumbnails.php:21
+msgid "Convert thumbnails to grayscale."
+msgstr "Miniaturbilder in Graustufen konvertieren."
+
+#: ../meta-boxes/excerpt.php:29
+#: ../meta-boxes/thumbnails.php:26
+msgid "Negate the thumbnails."
+msgstr "Miniaturbilder als Negativ anzeigen."
+
+#: ../meta-boxes/excerpt.php:33
+msgid "Please choose a template to display the excerpt of this gallery."
+msgstr "Bitte wähle eine Vorlage für die Galerievorschau aus."
+
+#: ../meta-boxes/excerpt.php:59
+msgid "Text Excerpt"
+msgstr "Textauszug"
+
+#: ../meta-boxes/import-images-form.php:61
+#, php-format
+msgid "Image: \"%s\""
+msgstr "Bild: \"%s\""
+
+#: ../meta-boxes/import-images-form.php:63
+#, php-format
+msgid "Belongs to %s: \"%s\""
+msgstr "Gehört zu %s: \"%s\""
+
+#: ../meta-boxes/import-images-form.php:65
+msgid "Not attached to a post."
+msgstr "Nicht an einen Artikel gebunden."
+
+#: ../meta-boxes/import-images-form.php:68
+msgid "This image belongs to this gallery."
+msgstr "Das Bild gehört zu dieser Galerie."
+
+#: ../meta-boxes/import-images-form.php:71
+msgid "Import to this gallery"
+msgstr "In diese Galerie verschieben"
+
+#: ../meta-boxes/thumbnails.php:4
+msgid "These settings affect the appearance of the thumbnail images of this gallery."
+msgstr "Mithilfe dieser Einstellungen können die Miniaturbilder dieser Galerie verändert werden."
+
+#: ../meta-boxes/thumbnails.php:9
+msgid "Thumbnail width:"
+msgstr "Breite der Bilder:"
+
+#: ../meta-boxes/thumbnails.php:14
+msgid "Thumbnail height:"
+msgstr "Höhe der Bilder:"
+
+#: ../options-page/archive-link.php:5
+#, php-format
+msgid "The Archive link for your Galleries is: <div><a href=\"%1$s\" target=\"_blank\">%1$s</a></div>"
+msgstr "Der Archiv-Link für deine Galerien lautet: <div><a href=\"%1$s\" target=\"_blank\">%1$s</a></div>"
+
+#: ../options-page/archive-link.php:8
+#, php-format
+msgid "The Archive Feed for your Galleries is: <div><a href=\"%1$s\" target=\"_blank\">%1$s</a></div>"
+msgstr "Der Archiv-Link zum RSS Feed deiner Galerien lautet: <div><a href=\"%1$s\" target=\"_blank\">%1$s</a></div>"
+
+#: ../options-page/archive-link.php:12
+msgid "Deactivate Archive"
+msgstr "Archiv deaktivieren"
+
+#: ../options-page/archive-link.php:15
+msgid "Deactivate the archive feature."
+msgstr "Die Archivfunktion deaktivieren."
+
+#: ../options-page/archive-link.php:16
+msgid "If you tick this box visitors will not be able to navigate through the gallery archive."
+msgstr "Wenn du diese Option aktivierst, sind die Besucher nicht mehr in der Lage das Galeriearchiv einzusehen."
+
+#: ../options-page/templates.php:4
+msgid "Are you sure you want to delete this template?"
+msgstr "Bist du sicher, dass du diese Vorlage löschen willst?"
+
+#: ../options-page/templates.php:21
+msgid "Delete this template"
+msgstr "Diese Vorlage löschen"
+
+#: ../options-page/templates.php:21
+msgid "Delete"
+msgstr "Löschen"
+
+#: ../options-page/templates.php:23
+#, php-format
+msgid "Found in <em>%s</em>."
+msgstr "Gefunden in <em>%s</em>."
+
+#: ../options-page/templates.php:29
+msgid "Install a template in ZIP format"
+msgstr "Eine Vorlage im ZIP-Format installieren"
+
+#: ../options-page/templates.php:30
+msgid "If you have a template as a .zip archive, you may install it by uploading it here."
+msgstr "Installiere eine Vorlage aus einem .zip-Archiv indem du diese hier hochlädst."
+
+#: ../options-page/templates.php:31
+msgid "Template as ZIP File"
+msgstr "Vorlage als ZIP-Datei"
+
+#: ../options-page/templates.php:33
+msgid "Install a template in PHP format"
+msgstr "Eine Vorlage im PHP-Format installieren"
+
+#: ../options-page/templates.php:34
+msgid "If you have a template as a .php file, you may install it by uploading it here."
+msgstr "Installiere eine Vorlage aus einer .php-Datei indem du diese hier hochlädst."
+
+#: ../options-page/templates.php:35
+msgid "Templates PHP File"
+msgstr "Vorlagen-PHP-Datei"
+
+#: ../options-page/templates.php:37
+msgid "Install template and save all options"
+msgstr "Vorlagen installieren und alle Optionen speichern"
+
+#: ../options-page/lightbox.php:9
+#: ../options-page/lightbox.php:20
+#: ../options-page/lightbox.php:31
+#: ../options-page/lightbox.php:42
+#: ../options-page/lightbox.php:53
+msgid "On"
+msgstr "An"
+
+#: ../options-page/lightbox.php:10
+#: ../options-page/lightbox.php:21
+#: ../options-page/lightbox.php:32
+#: ../options-page/lightbox.php:43
+#: ../options-page/lightbox.php:54
+msgid "Off"
+msgstr "Aus"
+
+#: ../options-page/lightbox.php:12
+msgid "Turn this off if you do not want to use the included lightbox."
+msgstr "Schalte die Lightbox aus, wenn dir die mitgelieferte Version nicht zusagt."
+
+#: ../options-page/lightbox.php:17
+msgid "Loop mode"
+msgstr "Schleifenmodus"
+
+#: ../options-page/lightbox.php:23
+msgid "Enables the user to get from the last image to the first one with the \"Next &raquo;\" button."
+msgstr "Ermöglicht es dem Benutzer vom letzten zum ersten Bild durch den \"Weiter &raquo;\" Button zu gelangen."
+
+#: ../options-page/lightbox.php:28
+msgid "Title &amp; Description"
+msgstr "Titel &amp; Beschreibung"
+
+#: ../options-page/lightbox.php:34
+msgid "Turn this off if you do not want to display the image title and description in your lightbox."
+msgstr "Schalte diese Option ab, wenn du Bildtitel und Beschreibung nicht in der Lightbox anzeigen möchtest."
+
+#: ../options-page/lightbox.php:39
+msgid "Close button"
+msgstr "Schließen-Knopf"
+
+#: ../options-page/lightbox.php:45
+msgid "Turn this off if you do not want to display a close button in your lightbox."
+msgstr "Schalte diese Option ab, wenn du keinen Schließen-Knopf in der Lightbox anzeigen möchtest."
+
+#: ../options-page/lightbox.php:50
+msgid "Indicator thumbnails"
+msgstr "Navigationsvorschaubilder"
+
+#: ../options-page/lightbox.php:56
+msgid "Turn this off if you do not want to display small preview thumbnails below the lightbox image."
+msgstr "Schalte diese Option aus, wenn du keine Navigationsvorschaubilder in der Lightbox anzeigen möchtest."
+
+#: ../options-page/lightbox.php:61
+msgid "Slideshow speed"
+msgstr "Geschwindigkeit der Slideshow"
+
+#: ../options-page/lightbox.php:64
+#: ../options-page/lightbox.php:81
+msgctxt "Abbr. Milliseconds"
+msgid "ms"
+msgstr "ms"
+
+#: ../options-page/lightbox.php:65
+msgid "The delay between two images in the slideshow."
+msgstr "Die Verzögerung zwischen zwei Bildwechseln in der Slideshow."
+
+#: ../options-page/lightbox.php:70
+msgid "Preload images"
+msgstr "Bilder vorladen"
+
+#: ../options-page/lightbox.php:73
+msgid "The number of images which should be preloaded around the current one."
+msgstr "Die Anzahl der Bilder die vor und nach dem  aktuellen Bild im Hintergrund vorgeladen werden."
+
+#: ../options-page/lightbox.php:78
+msgid "Animation speed"
+msgstr "Animationsgeschwindigkeit"
+
+#: ../options-page/lightbox.php:82
+msgid "The speed of the image change animation."
+msgstr "Die Geschwindigkeit in der die Bildwechsel-Animation durchgeführt wird."
+
+#: ../options-page/lightbox.php:87
+msgid "Stretch images"
+msgstr "Bilder vergrößern"
+
+#: ../options-page/lightbox.php:90
+msgid "No stretching"
+msgstr "Nicht vergrößern"
+
+#: ../options-page/lightbox.php:91
+msgid "Contain"
+msgstr "Einpassen"
+
+#: ../options-page/lightbox.php:92
+msgid "Cover"
+msgstr "Aufspannen"
+
+#: ../options-page/lightbox.php:94
+msgid "\"Contain\" means to scale the image to the largest size such that both its width and its height can fit the screen."
+msgstr "\"Einpassen\" bedeutet das Bild wird soweit vergrößert, dass die Höhe und Breite des Bildes nicht größer als der Viewport sind. Vom Bild wird nichts abgeschnitten."
+
+#: ../options-page/lightbox.php:95
+msgid "\"Cover\" means to scale the image to be as large as possible so that the screen is completely covered by the image. Some parts of the image may be cropped and not in view."
+msgstr "\"Aufspannen\" bedeutet das Bild wird soweit vergrößert, dass es den gesamten Viewport einnimmt. Überstehende Teile werden dabei abgeschnitten."
+
+#: ../options-page/lightbox.php:100
+msgid "Script position"
+msgstr "Scriptposition"
+
+#: ../options-page/lightbox.php:103
+msgid "Footer of the website"
+msgstr "Fußbereich der Webseite"
+
+#: ../options-page/lightbox.php:104
+msgid "Header of the website"
+msgstr "Kopfbereich der Webseite"
+
+#: ../options-page/lightbox.php:106
+msgid "Please choose the position of the javascript. Footer is recommended. Use \"Header\" if you have trouble to make the lightbox work."
+msgstr "Bitte wähle die Position des Javascripts aus. Der \"Fußbereich\" wird empfohlen. Wähle \"Kopfbereich\" aus, wenn die Lightbox nicht richtig funktioniert."
+
+#: ../options-page/lightbox.php:111
+msgid "Asynchronous loading"
+msgstr "Asynchrones Laden"
+
+#: ../options-page/lightbox.php:114
+msgid "Load all components asynchronously"
+msgstr "Alle Komponenten asynchron laden"
+
+#: ../options-page/lightbox.php:115
+msgid "Do not load anything asynchronously"
+msgstr "Keine Komponenten asynchron laden"
+
+#: ../options-page/lightbox.php:116
+msgid "Load CSS asynchronously only"
+msgstr "Nur das CSS asynchron laden"
+
+#: ../options-page/lightbox.php:117
+msgid "Load JavaScripts asynchronously only"
+msgstr "Nur das JavaScript asynchron laden"
+
+#: ../options-page/lightbox.php:119
+msgid "If you are using a HTML/CSS/JS minifier you should disable the asynchronous loading."
+msgstr "Wenn du einen HTML/CSS/JS Optimierer einsetzt, solltest du das asynchrone Laden deaktivieren."
+
+#: ../options-page/taxonomies.php:4
+msgid "Please select the taxonomies you need to classify your galleries."
+msgstr "Bitte wähle die Klassifizierungen zur Gruppierung deiner Galerien aus."
+
+#: ../options-page/taxonomies.php:14
+#: ../options-page/taxonomies.php:21
+msgid "hierarchical"
+msgstr "hierarchisch"
+
+#: ../options-page/taxonomies.php:18
+msgid "Events"
+msgstr "Ereignisse"
+
+#: ../options-page/taxonomies.php:18
+msgid "Places"
+msgstr "Orte"
+
+#: ../options-page/taxonomies.php:18
+msgid "Dates"
+msgstr "Zeiträume"
+
+#: ../options-page/taxonomies.php:18
+msgid "Persons"
+msgstr "Personen"
+
+#: ../options-page/taxonomies.php:18
+msgid "Photographers"
+msgstr "Fotografen"
+
+#: ../options-page/excerpt.php:4
+msgid "Usually posts have optional hand-crafted summaries of their content. But galleries do not."
+msgstr "Normale Artikel haben optional eine selbst verfasste Kurzzusammenfassung, Galerien jedoch nicht."
+
+#: ../options-page/excerpt.php:5
+msgid "Gallery excerpts are randomly chosen images from a gallery."
+msgstr "Die Galerievorschauen bestehen aus zufällig ausgewählten Bildern einer Galerie."
+
+#: ../options-page/excerpt.php:6
+msgid "These settings may be overridden for individual galleries."
+msgstr "Diese Einstellungen können für individuelle Galerien überschrieben werden."
+
+#: ../options-page/excerpt.php:11
+msgid "Do not generate excerpts out of random gallery images."
+msgstr "Keine Vorschau aus zufälligen Galeriebildern erstellen."
+
+#: ../options-page/upgrade.php:3
+msgid "Want to unlock all settings and features? Upgrade to Fancy Gallery Pro!"
+msgstr "Willst du alle Einstellungen und Funktionen freischalten? Dann wechsle doch zu Fancy Gallery Pro!"
+
+#: ../options-page/user-rights.php:10
+msgid "Edit and create (own) galleries"
+msgstr "Erstellen und Bearbeiten (eigener) Galerien"
+
+#: ../options-page/user-rights.php:11
+msgid "Edit others galleries"
+msgstr "Bearbeiten fremder Galerien"
+
+#: ../options-page/user-rights.php:12
+msgid "Edit (own) private galleries"
+msgstr "Bearbeiten (eigener) privater Galerien"
+
+#: ../options-page/user-rights.php:13
+msgid "Edit (own) published galleries"
+msgstr "Bearbeiten (eigener) veröffentlichter Galerien"
+
+#: ../options-page/user-rights.php:15
+msgid "Delete (own) galleries"
+msgstr "Löschen (eigener) Galerien"
+
+#: ../options-page/user-rights.php:16
+msgid "Delete (own) private galleries"
+msgstr "Löschen (eigener) privater Galerien"
+
+#: ../options-page/user-rights.php:17
+msgid "Delete (own) published galleries"
+msgstr "Löschen (eigener) veröffentlichter Galerien"
+
+#: ../options-page/user-rights.php:18
+msgid "Delete others galleries"
+msgstr "Löschen fremder Galerien"
+
+#: ../options-page/user-rights.php:20
+msgid "Publish galleries"
+msgstr "Galerien veröffentlichen"
+
+#: ../options-page/user-rights.php:21
+msgid "View (others) private galleries"
+msgstr "Ansehen (fremder) privater Galerien"
+
+#: ../options-page/user-rights.php:23
+msgid "Manage taxonomies"
+msgstr "Klassifizierungen bearbeiten"
+
+#: ../widgets/widget.taxonomy-cloud.php:16
+msgid "Gallery taxonomy cloud"
+msgstr "Galerieklassifizierungen (Wolke)"
+
+#: ../widgets/widget.taxonomy-cloud.php:17
+msgid "Displays your gallery taxonomies as tag cloud."
+msgstr "Zeigt die Galerieklassifizierungen als  \"Wortwolke\" an."
+
+#: ../widgets/widget.taxonomy-cloud.php:24
+#: ../widgets/widget.taxonomies.php:16
+#: ../widgets/widget.taxonomies.php:24
+msgid "Gallery taxonomies"
+msgstr "Galerieklassifizierungen"
+
+#: ../widgets/widget.taxonomy-cloud.php:62
+#: ../widgets/widget.random-images.php:91
+#: ../widgets/widget.taxonomies.php:62
+msgid "Leave blank to use the widget default title."
+msgstr "Leer lassen um Standardtitel zu verwenden."
+
+#: ../widgets/widget.taxonomy-cloud.php:66
+#: ../widgets/widget.taxonomies.php:66
+msgid "Taxonomy:"
+msgstr "Klassifizierung:"
+
+#: ../widgets/widget.taxonomy-cloud.php:72
+#: ../widgets/widget.taxonomies.php:72
+msgid "Please choose the Taxonomy the widget should display."
+msgstr "Bitte wähle die Klassifizierung aus, die das Widget anzeigen soll."
+
+#: ../widgets/widget.taxonomy-cloud.php:76
+#: ../widgets/widget.taxonomies.php:76
+msgid "Number of terms:"
+msgstr "Anzahl der Elemente:"
+
+#: ../widgets/widget.taxonomy-cloud.php:78
+#: ../widgets/widget.taxonomies.php:78
+msgid "Leave blank to show all."
+msgstr "Leer lassen um alle anzuzeigen."
+
+#: ../widgets/widget.taxonomy-cloud.php:84
+#: ../widgets/widget.taxonomies.php:84
+msgid "Term IDs, separated by commas."
+msgstr "Term IDs, durch Kommas getrennt."
+
+#: ../widgets/widget.taxonomy-cloud.php:88
+#: ../widgets/widget.taxonomies.php:93
+msgid "Order by:"
+msgstr "Sortieren nach:"
+
+#: ../widgets/widget.taxonomy-cloud.php:91
+#: ../widgets/widget.taxonomies.php:96
+msgid "Gallery Count"
+msgstr "Galerieanzahl"
+
+#: ../widgets/widget.taxonomy-cloud.php:93
+#: ../widgets/widget.taxonomies.php:98
+msgid "Slug"
+msgstr "Slug"
+
+#: ../widgets/widget.taxonomy-cloud.php:98
+#: ../widgets/widget.taxonomies.php:103
+msgid "Order:"
+msgstr "Reihenfolge:"
+
+#: ../widgets/widget.random-images.php:15
+msgid "Displays some random images from your galleries."
+msgstr "Zeigt zufällige Bilder aus deinen Galerien an."
+
+#: ../widgets/widget.random-images.php:95
+msgid "Number of Images:"
+msgstr "Anzahl der Bilder:"
+
+#: ../widgets/widget.random-images.php:97
+msgid "Leave blank (or \"0\") to show all."
+msgstr "Leer lassen (oder \"0\") um alles anzuzeigen."
+
+#: ../widgets/widget.random-images.php:101
+msgid "Link target:"
+msgstr "Linkziel:"
+
+#: ../widgets/widget.random-images.php:103
+msgid "Fullsize Image"
+msgstr "Bild in Originalgröße"
+
+#: ../widgets/widget.random-images.php:104
+msgid "Image Gallery"
+msgstr "Bildergalerie"
+
+#: ../widgets/widget.random-images.php:129
+msgid "Please choose a template to display this widget."
+msgstr "Bitte wähle eine Vorlage zum Anzeigen des Widgets aus."
+
+#: ../widgets/widget.taxonomies.php:17
+msgid "Displays your gallery taxonomies like categories, tags, events, photographers, etc."
+msgstr "Zeigt Galerieklassifizierungen wie Kategorien, Schlagworte, Ereignisse, Fotografen, etc. an."
+
+#: ../widgets/widget.taxonomies.php:89
+msgid "Show Gallery counts."
+msgstr "Galerieanzahl einblenden."
+
+#~ msgid "Manage %s"
+#~ msgstr "%s verwalten"
+
+#~ msgid "Updates"
+#~ msgstr "Aktualisierungen"
+
+#~ msgid "Gallery Events"
+#~ msgstr "Ereignisse"
+
+#~ msgid "Event"
+#~ msgstr "Ereignis"
+
+#~ msgid "All Events"
+#~ msgstr "Alle Ereignisse"
+
+#~ msgid "Edit Event"
+#~ msgstr "Ereignis bearbeiten"
+
+#~ msgid "View Event"
+#~ msgstr "Ereignis anschauen"
+
+#~ msgid "Update Event"
+#~ msgstr "Ereignis aktualisieren"
+
+#~ msgid "Add New Event"
+#~ msgstr "Neues Ereignis hinzufügen"
+
+#~ msgid "New Event"
+#~ msgstr "Neues Ereignis"
+
+#~ msgid "Parent Event"
+#~ msgstr "Übergeordnetes Ereignis"
+
+#~ msgid "Parent Event:"
+#~ msgstr "Übergeordnetes Ereignis:"
+
+#~ msgid "Search Events"
+#~ msgstr "Ereignisse durchsuchen"
+
+#~ msgid "Popular Events"
+#~ msgstr "Häufig verwendete Ereignisse"
+
+#~ msgid "Separate Events with commas"
+#~ msgstr "Ereignisse durch Komma getrennt"
+
+#~ msgid "Add or remove Events"
+#~ msgstr "Ereignisse hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used Events"
+#~ msgstr "Wählen Sie aus den am meisten verwendeten Ereignissen"
+
+#~ msgid "No Events found."
+#~ msgstr "Keine Ereignisse gefunden."
+#~ msgctxt "URL slug"
+
+#~ msgid "gallery-event"
+#~ msgstr "galerie-ereigniss"
+
+#~ msgid "Gallery Places"
+#~ msgstr "Orte"
+
+#~ msgid "Place"
+#~ msgstr "Ort"
+
+#~ msgid "All Places"
+#~ msgstr "Alle Orte"
+
+#~ msgid "Edit Place"
+#~ msgstr "Ort bearbeiten"
+
+#~ msgid "View Place"
+#~ msgstr "Ort ansehen"
+
+#~ msgid "Update Place"
+#~ msgstr "Orte aktualisieren"
+
+#~ msgid "Add New Place"
+#~ msgstr "Neue Orte hinzufügen"
+
+#~ msgid "New Place"
+#~ msgstr "Neuer Ort"
+
+#~ msgid "Parent Place"
+#~ msgstr "Übergeordneter Ort"
+
+#~ msgid "Parent Place:"
+#~ msgstr "Übergeordneter Ort:"
+
+#~ msgid "Search Places"
+#~ msgstr "Orte durchsuchen"
+
+#~ msgid "Popular Places"
+#~ msgstr "Häufig verwendete Orte"
+
+#~ msgid "Separate Places with commas"
+#~ msgstr "Orte durch Komma getrennt"
+
+#~ msgid "Add or remove Places"
+#~ msgstr "Orte hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used Places"
+#~ msgstr "Wählen Sie aus den am meisten verwendeten Orten"
+
+#~ msgid "No Places found."
+#~ msgstr "Keine Orte gefunden."
+#~ msgctxt "URL slug"
+
+#~ msgid "gallery-place"
+#~ msgstr "galerie-ort"
+
+#~ msgid "Gallery Dates"
+#~ msgstr "Zeiträume"
+
+#~ msgid "Date"
+#~ msgstr "Zeitraum"
+
+#~ msgid "All Dates"
+#~ msgstr "Alle Zeiträume"
+
+#~ msgid "Edit Date"
+#~ msgstr "Zeitraum bearbeiten"
+
+#~ msgid "View Date"
+#~ msgstr "Zeitraum ansehen"
+
+#~ msgid "Update Date"
+#~ msgstr "Zeitraum aktualisieren"
+
+#~ msgid "Add New Date"
+#~ msgstr "Neuen Zeitraum hinzufügen"
+
+#~ msgid "New Date"
+#~ msgstr "Neuer Zeitraum"
+
+#~ msgid "Parent Date"
+#~ msgstr "Übergeordneter Zeitraum"
+
+#~ msgid "Parent Date:"
+#~ msgstr "Übergeordneter Zeitraum:"
+
+#~ msgid "Search Dates"
+#~ msgstr "Zeiträume suchen"
+
+#~ msgid "Popular Dates"
+#~ msgstr "Häufig verwendete Zeiträume"
+
+#~ msgid "Separate Dates with commas"
+#~ msgstr "Zeiträume durch Komma getrennt"
+
+#~ msgid "Add or remove Dates"
+#~ msgstr "Zeiträume hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used Dates"
+#~ msgstr "Wählen Sie aus den am meisten verwendeten Zeiträumen"
+
+#~ msgid "No Dates found."
+#~ msgstr "Keine Zeiträume gefunden."
+#~ msgctxt "URL slug"
+
+#~ msgid "gallery-date"
+#~ msgstr "galerie-zeitraum"
+
+#~ msgid "Gallery Persons"
+#~ msgstr "Personen"
+
+#~ msgid "Person"
+#~ msgstr "Person"
+
+#~ msgid "All Persons"
+#~ msgstr "Alle Personen"
+
+#~ msgid "Edit Person"
+#~ msgstr "Person bearbeiten"
+
+#~ msgid "View Person"
+#~ msgstr "Person ansehen"
+
+#~ msgid "Update Person"
+#~ msgstr "Person aktualisieren"
+
+#~ msgid "Add New Person"
+#~ msgstr "Neue Person hinzufügen"
+
+#~ msgid "New Person"
+#~ msgstr "Neue Person"
+
+#~ msgid "Parent Person"
+#~ msgstr "Übergeordnete Person"
+
+#~ msgid "Parent Person:"
+#~ msgstr "Übergeordnete Person:"
+
+#~ msgid "Search Persons"
+#~ msgstr "Personen suchen"
+
+#~ msgid "Popular Persons"
+#~ msgstr "Häufig markierte Personen"
+
+#~ msgid "Separate Persons with commas"
+#~ msgstr "Personen durch Komma getrennt"
+
+#~ msgid "Add or remove Persons"
+#~ msgstr "Personen hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used Persons"
+#~ msgstr "Wählen Sie aus den am meisten markierten Personen"
+
+#~ msgid "No Persons found."
+#~ msgstr "Keine Personen gefunden."
+#~ msgctxt "URL slug"
+
+#~ msgid "gallery-person"
+#~ msgstr "galerie-person"
+
+#~ msgid "Gallery Photographers"
+#~ msgstr "Fotografen"
+
+#~ msgid "Photographer"
+#~ msgstr "Fotograf"
+
+#~ msgid "All Photographers"
+#~ msgstr "Alle Fotografen"
+
+#~ msgid "Edit Photographer"
+#~ msgstr "Fotograf bearbeiten"
+
+#~ msgid "View Photographer"
+#~ msgstr "Fotograf ansehen"
+
+#~ msgid "Update Photographer"
+#~ msgstr "Fotograf aktualisieren"
+
+#~ msgid "Add New Photographer"
+#~ msgstr "Neuen Fotograf hinzufügen"
+
+#~ msgid "New Photographer"
+#~ msgstr "Neuer Fotograf"
+
+#~ msgid "Parent Photographer"
+#~ msgstr "Übergeordneter Fotograf"
+
+#~ msgid "Parent Photographer:"
+#~ msgstr "Übergeordneter Fotograf:"
+
+#~ msgid "Search Photographers"
+#~ msgstr "Fotografen suchen"
+
+#~ msgid "Popular Photographers"
+#~ msgstr "Häufig markierte Fotografen"
+
+#~ msgid "Separate Photographers with commas"
+#~ msgstr "Fotografen durch Komma getrennt"
+
+#~ msgid "Add or remove Photographers"
+#~ msgstr "Fotograf hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used Photographers"
+#~ msgstr "Wählen Sie aus den am meisten verwendeten Fotografen"
+
+#~ msgid "No Photographers found."
+#~ msgstr "Keine Fotografen gefunden."
+#~ msgctxt "URL slug"
+
+#~ msgid "gallery-photographer"
+#~ msgstr "galerie-fotograf"
+
+#~ msgid "Your update subscription account"
+#~ msgstr "Ihr Aktualisierungskonto"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Number"
+#~ msgstr "Anzahl"
+
+#~ msgid "Fancy Random Images"
+#~ msgstr "Zufallsbilder"
+
+#~ msgid "Fancy Taxonomies"
+#~ msgstr "Galerieklassifizierungen"
+
+#~ msgid "Border width"
+#~ msgstr "Rahmenbreite"
+#~ msgctxt "Abbr. Pixels"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "Width of the image frame border. (in pixels)"
+#~ msgstr "Breite des Bildrahmens. (In Pixeln)"
+
+#~ msgid "Hide the close button."
+#~ msgstr "Den Schließen-Knopf verstecken."
+
+#~ msgid "Auto play"
+#~ msgstr "Autostart"
+
+#~ msgid "Start the slideshow when the user opens the first gallery item."
+#~ msgstr ""
+#~ "Startet die Dia-Show automatisch wenn der Benutzer ein Element öffnet."
+
+#~ msgid "Play speed"
+#~ msgstr "Geschwindigkeit"
+
+#~ msgid "Speed of the slideshow. (in milliseconds)"
+#~ msgstr "Abspielgeschwindigkeit der Dia-Show. (in Millisekunden)"
+
+#~ msgid "Image title"
+#~ msgstr "Bildtitel"
+
+#~ msgid "Use the title of the image as title of the light box."
+#~ msgstr "Benutze den Bildtitel als Titel für die Lightbox."
+
+#~ msgid "Use the alternative text of the image as title of the light box."
+#~ msgstr "Benutze den alternativen Bildtext als Titel für die Lightbox."
+
+#~ msgid "Use the image caption as title of the light box."
+#~ msgstr "Benutze die Bildbeschriftung als Titel für die Lightbox."
+
+#~ msgid "Use the image description as title of the light box."
+#~ msgstr "Benutze die Bildbeschreibung als Titel für die Lightbox."
+
+#~ msgid "Do not show image titles."
+#~ msgstr "Keine Bilduntertitel zeigen."
+
+#~ msgid "Outside the light box"
+#~ msgstr "Außerhalb der Lightbox"
+
+#~ msgid "Does not work with multiline titles."
+#~ msgstr "Funktioniert nicht mit mehrzeiligen Bilduntertiteln."
+
+#~ msgid "Inside the light box"
+#~ msgstr "In der Lightbox"
+
+#~ msgid "Does not work blameless with multiline titles."
+#~ msgstr "Funktioniert nur teilweise mit mehrzeiligen Bildtiteln."
+
+#~ msgid "Over the image"
+#~ msgstr "Auf dem Bild"
+
+#~ msgid "Works fine with multiline titles."
+#~ msgstr "Funktioniert auch mit mehrzeiligen Bildtiteln."
+
+#~ msgid "Controls position"
+#~ msgstr "Steuerungspanel"
+
+#~ msgid "Position of the Prev, Next, Slideshow, Stop, etc. controls."
+#~ msgstr ""
+#~ "Position der Weiter, Zurück, Dia-Show starten & stoppen, etc. Knöpfe."
+
+#~ msgid "Thumbnails position"
+#~ msgstr "Vorschaubilder"
+
+#~ msgid "Position of preview thumbnails relative to the lightbox."
+#~ msgstr "Position der Vorschaubilder relativ zur Lightbox."
+
+#~ msgid "Opening effect"
+#~ msgstr "Einblendeffekt"
+
+#~ msgid "Fade"
+#~ msgstr "Aufblenden"
+
+#~ msgid "Elastic"
+#~ msgstr "Elastisch"
+
+#~ msgid "No effect"
+#~ msgstr "Kein Effekt"
+
+#~ msgid "Speed of the fade and elastic transitions. (in milliseconds)"
+#~ msgstr "Laufzeit des Überblend-Effektes. (in Millisekunden)"
+
+#~ msgid "Closing effect"
+#~ msgstr "Ausblendeffekt"
+
+#~ msgid "Closing speed"
+#~ msgstr "Ausblendgeschwindigkeit"
+
+#~ msgid "Changing effect"
+#~ msgstr "Bildwechseleffekt"
+
+#~ msgid "Image resizing speed"
+#~ msgstr "Zeit der Bildgrößenanpassung"
+
+#~ msgid "Speed of resizing when changing gallery items. (in milliseconds)"
+#~ msgstr ""
+#~ "Laufzeit in der sich die FancyBox an die Größe eines Bildes anpassen "
+#~ "soll. (in Millisekunden)"
+
+#~ msgid ""
+#~ "Consolidate single images in a post to one group so the user can navigate "
+#~ "through them."
+#~ msgstr ""
+#~ "Einzelbilder in einem Artikel zu einer Gruppe zusammenfassen, so dass der "
+#~ "Benutzer diese durchblättern kann."
+
+#~ msgid "So you will have an image navigation for all images."
+#~ msgstr "So erhalten Sie eine Bildnavigation für alle Bilder."
+
+#~ msgid "Group single images by post."
+#~ msgstr "Einzelbilder nach Artikel gruppieren."
+
+#~ msgid "Will create different navigation paths for different posts."
+#~ msgstr "Dabei wird je ein Navigationspfad für einen Artikel erstellt."
+
+#~ msgid "Image appearance"
+#~ msgstr "Bildanzeige"
+
+#~ msgid "Convert images to inline elements."
+#~ msgstr "Konvertiert Bilder zu Inline-Elementen."
+
+#~ msgid "Tick this box if your images are among each other."
+#~ msgstr ""
+#~ "Aktivieren Sie dieses Feld wenn Ihre Galeriebilder untereinander "
+#~ "angezeigt werden."
+
+#~ msgid "Set Gallery Thumbnail"
+#~ msgstr "Galerievorschaubild setzen"
+
+#~ msgid "Remove Gallery Thumbnail"
+#~ msgstr "Vorschaubild entfernen"
+
+#~ msgid "Use as Gallery Thumbnail"
+#~ msgstr "Als Galerievorschaubild verwenden"
+
+#~ msgid "Capabilities"
+#~ msgstr "Ressourcen"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Sonstiges"
+
+#~ msgid "Update notification"
+#~ msgstr "Aktualisierungsbenachrichtigung"
+
+#~ msgid "Disable Update notification."
+#~ msgstr "Aktualisierungsbenachrichtigung deaktivieren."
+
+#~ msgid "Your DennisHoppe.de Account"
+#~ msgstr "Ihr DennisHoppe.de Account"
+
+#~ msgid "Overlay opacity"
+#~ msgstr "Milchglas-Hintergrund Transparenzgrad"
+
+#~ msgid ""
+#~ "Percentaged opacity of the background of the FancyBox. Should be a value "
+#~ "from 0 (invisible) to 100 (opaque). (Default is 30)"
+#~ msgstr ""
+#~ "Prozentualer Sichtbarkeitsgrad für die \"Milchglasscheibe\" hinter der "
+#~ "FancyBox. Es sollte ein Wert zwischen 0 (unsichtbar) und 100 "
+#~ "(undurchschaubar) sein. (Standard ist 30)"
+
+#~ msgid "Overlay color"
+#~ msgstr "Milchglas-Hintergrund Grundfarbe"
+
+#~ msgid "Please choose the color of the \"darker\" background."
+#~ msgstr "Bitte wählen Sie eine Farbe für das Milchglas hinter der FancyBox."
+
+#~ msgid "Scrollbars"
+#~ msgstr "Scroll-Leisten"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisch"
+
+#~ msgid ""
+#~ "\"Automatic\" means scrollbars will be visibly if necessary. \"Yes\" and "
+#~ "\"No\" should be clear."
+#~ msgstr ""
+#~ "\"Automatisch\" bedeutet die Scroll-Leisten werden eingeblendet wenn "
+#~ "nötig. \"Ja\" und \"Nein\" sollten klar sein."
+
+#~ msgid ""
+#~ "This option controls the appearance of the scrollbars inside the fancy "
+#~ "box."
+#~ msgstr ""
+#~ "Diese Option steuert die Darstellung der Scroll-Leisten in der FancyBox."
+
+#~ msgid "Center on scroll"
+#~ msgstr "Zentrieren beim Scrollen"
+
+#~ msgid ""
+#~ "Keep the FancyBox always in the center of the screen while scrolling the "
+#~ "page."
+#~ msgstr ""
+#~ "Die FancyBox, auch wärend des Scrollens, immer in der Bildschirmmitte "
+#~ "halten."
+
+#~ msgid "Referer Check"
+#~ msgstr "Referer Überprüfung"
+
+#~ msgid ""
+#~ "Disable the referer check in the dynamically JavaScript and CSS files."
+#~ msgstr ""
+#~ "Referer Überprüfung für dynamische JavaScript und CSS Komponenten "
+#~ "<b>deaktivieren</b>."
+
+#~ msgid ""
+#~ "Tick this is box if see a \"Wrong Referer\" message on your own website!"
+#~ msgstr ""
+#~ "Aktivieren Sie diese Option wenn Sie eine \"Wrong Referer\" Nachricht auf "
+#~ "Ihrer Webseite sehen!"
+
+#~ msgid "Opening transition"
+#~ msgstr "Einblendeffekt"
+
+#~ msgid "No transition"
+#~ msgstr "Kein Effekt"
+
+#~ msgid "Closing transition"
+#~ msgstr "Ausblendeffekt"
+
+#~ msgid "Option Page"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Do not show the options page as sub menu of the \"Galleries\" menu."
+#~ msgstr ""
+#~ "Die Einstellungsseite nicht als Untermenü des \"Galerien\"-Menüs anzeigen."
+
+#~ msgid "Please log into your Account and download the new version."
+#~ msgstr ""
+#~ "Bitte loggen Sie sich in Ihren Account ein und laden Sie die neue Version "
+#~ "herunter."
+
+#~ msgid ""
+#~ "These settings affect the appearance of gallery overviews and the gallery "
+#~ "preview images."
+#~ msgstr ""
+#~ "Mithilfe dieser Einstellungen können Galerieübersichten und "
+#~ "Vorschaubilder der Galerie angezeigt werden."
+
+#~ msgid "Preview image width"
+#~ msgstr "Breite des Vorschaubildes"
+
+#~ msgid "Preview image height"
+#~ msgstr "Höhe des Vorschaubildes"
+
+#~ msgid "Convert Preview images to grayscale."
+#~ msgstr "Zeigt Vorschaubilder in Graustufen an."
+
+#~ msgid "Appearance problems"
+#~ msgstr "Darstellungsprobleme"
+
+#~ msgid ""
+#~ "Convert gallery images to inline elements. (Tick this box if your "
+#~ "galleries have only one column.)"
+#~ msgstr ""
+#~ "Konvertiere Galeriebilder in \"Inline\"-Elemente. (Aktivieren Sie dieses "
+#~ "Feld wenn Ihre Galerien mit nur einer Spalte dargestellt werden.)"
+
+#~ msgid ""
+#~ "Some themes let images appear as block elements. This effects that your "
+#~ "image galleries have only one column."
+#~ msgstr ""
+#~ "Einige Themes zeigen Bilder als Block-Elemente, was darin resultiert dass "
+#~ "Ihre Galerien einspaltig dargestellt werden."

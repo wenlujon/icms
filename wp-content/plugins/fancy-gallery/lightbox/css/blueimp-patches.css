@@ -1,0 +1,46 @@
+.title-description {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  margin: 0 40px 0 0;
+  line-height: 150%;
+  color: #fff;
+  display: none
+}
+
+.blueimp-gallery-controls > .title-description {
+  display: block
+}
+
+.title-description .title,
+.title-description .description {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.title-description :empty {
+  display: none;
+}
+
+.title-description .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.blueimp-gallery > .prev,
+.blueimp-gallery > .next {
+  font-family: Arial, sans-serif;
+}
+
+.blueimp-gallery > .indicator > li {
+  background-size: cover;
+  padding: 0;
+}
+@media (min-width: 800px){
+  .blueimp-gallery > .indicator > li {
+    height: 29px;
+    width: 29px;
+  }
+}

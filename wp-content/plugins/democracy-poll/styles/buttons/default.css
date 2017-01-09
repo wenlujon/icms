@@ -1,0 +1,32 @@
+/* button */
+input[type="submit"].dem-button,
+a.dem-button,
+.dem-button{
+    font-size:80%;
+    font-family: tahoma, arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:0.7em 1.2em;
+    border-radius: .4em;
+    border: 1px solid #c9c9c9;
+    background-color: #dedede;
+    background-image: linear-gradient(to bottom, #fff 0%, transparent );
+    background-image: -webkit-linear-gradient(top, #fff 0%, transparent );
+    text-shadow: #fff 0 1px;
+    color:#555;
+}
+
+input[type="submit"].dem-button:hover,
+a.dem-button:hover,
+.dem-button:hover{
+    border: 1px solid #bbb; background-color:#ddd;
+    color:#555;
+}
+
+input[type="submit"].dem-button:active,
+a.dem-button:active,
+.dem-button:active{
+    text-shadow: none;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 -2px 5px inset,rgba(0,0,0,0.2) 0 1px 3px inset;
+    box-shadow: rgba(0,0,0,0.1) 0 -2px 5px inset,rgba(0,0,0,0.2) 0 1px 3px inset;
+}

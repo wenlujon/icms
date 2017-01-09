@@ -1,0 +1,29 @@
+body, html {
+  height: auto;
+  background: white;
+}
+
+body {
+}
+
+.tablenav {
+  height: auto;
+}
+
+.tablenav .tablenav-pages {
+	text-align: center;
+	float: none;
+  margin-bottom: 20px;
+}
+
+div.attachment {
+	width: 50%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+div.attachment  img.attachment-thumbnail {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
