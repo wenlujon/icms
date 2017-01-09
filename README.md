@@ -1,2 +1,2 @@
 # icms
-integrated CMS
+integrated CMS based on wordpress
