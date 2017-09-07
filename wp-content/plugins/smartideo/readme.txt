@@ -2,7 +2,7 @@
 Contributors: Fens Liu
 Tags: video, html5, flash, youku, tudou, QQ, 56, 视频, 播放器, 优酷, 土豆, 搜狐, 腾讯
 Requires at least: 3.5.0
-Tested up to: 4.6.1
+Tested up to: 4.7.3
 
 Smartideo 是为 WordPress 添加对在线视频支持的一款插件（支持手机、平板等设备HTML5播放）。 目前支持优酷、搜狐视频、土豆、56、腾讯视频、新浪视频、酷6、华数、乐视、YouTube 等网站。
 
@@ -32,17 +32,16 @@ http://my.tv.sohu.com/pl/6888667/78050474.shtml
 http://www.wasu.cn/Play/show/id/5079941
 http://www.acfun.tv/v/ac1963444
 http://www.meipai.com/media/531841278
-
-== 不支持手机播放 ==
 http://www.bilibili.com/video/av2436095/
 
+不支持手机播放
 http://www.letv.com/ptv/vplay/20932037.html
 http://www.hunantv.com/v/2/103460/f/1088659.html
 http://www.miaopai.com/show/mlnIHcTzrRusUb4SZuFI0Q__.htm
 http://v.yinyuetai.com/video/2207109
 http://v.ku6.com/show/P0Ib_pTne6-FBSa1AbtKUQ...html
 
-== 音乐 ==
+音乐
 http://music.163.com/#/song?id=186513
 http://www.xiami.com/song/389307
 
@@ -54,6 +53,65 @@ http://www.xiami.com/song/389307
 3. 在插件管理页面中激活 Smartideo
 
 == Changelog ==
+
+= 请关注微信公众号：ri-fu-yi-ri 获取高级功能 =
+= 小广告：开发者必备的Chrome插件 http://t.cn/RJe4SNI =
+
+= 2.2.3 =
+
+* 优化 资源加载方式（推荐使用全局加载）
+* 优化 哔哩哔哩CID获取逻辑
+
+= 2.2.0 =
+
+* 新增 支持爱奇艺（beta）
+* 优化 哔哩哔哩播放器选择（自动选择／全局H5）
+* 优化 Smartideo设置
+
+= 2.1.9 =
+
+* 优化 对哔哩哔哩HTTPS的支持
+* 优化 乐视播放器
+* 优化 Smartideo设置
+
+= 2.1.8 =
+
+* 新增 支持QQ音乐
+* 优化 哔哩哔哩H5播放（beta）
+
+= 2.1.7 =
+
+* 优化 对秒拍HTTPS的支持
+
+= 2.1.6 =
+
+* 修复 秒拍SWF播放器不能加载的BUG
+
+= 2.1.5 =
+
+* 新增 支持AcFun新域名（www.acfun.cn）
+* 优化 对哔哩哔哩HTTPS的支持
+* 优化 HTTPS检测方法
+* 优化 Smartideo设置
+
+= 2.1.4 =
+
+* 新增 支持秒拍H5播放
+* 优化 对优酷HTTPS的支持
+* 优化 对哔哩哔哩HTTPS的支持
+
+= 2.1.3 =
+
+* 修复 Smartideo设置的BUG
+
+= 2.1.2 =
+
+* 新增 支持优酷HTTPS
+* 优化 Smartideo设置
+
+= 2.1.1 =
+* 新增 支持WordPress 4.7
+* 修复 bilibili H5不能播放的问题（临时方案）
 
 = 2.1.0 =
 * 修复 bilibili H5不能播放的问题

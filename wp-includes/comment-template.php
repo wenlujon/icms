@@ -26,7 +26,7 @@ function get_comment_author( $comment_ID = 0 ) {
 		if ( $comment->user_id && $user = get_userdata( $comment->user_id ) )
 			$author = $user->display_name;
 		else
-			$author = __('Anonymous');
+			$author = __('火星用户');
 	} else {
 		$author = $comment->comment_author;
 	}
@@ -2179,12 +2179,9 @@ function comment_form( $args = array(), $post_id = null ) {
 	$aria_req = ( $req ? " aria-required='true'" : '' );
 	$html5    = 'html5' === $args['format'];
 	$fields   =  array(
-		'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
-		            '<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>',
-		'email'  => '<p class="comment-form-email"><label for="email">' . __( 'Email' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
-		            '<input id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30" aria-describedby="email-notes"' . $aria_req . ' /></p>',
-		'url'    => '<p class="comment-form-url"><label for="url">' . __( 'Website' ) . '</label> ' .
-		            '<input id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>',
+               'author' => '<p class="comment-form-author">' . '<label for="author">' . __( '您的称呼' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+                           '<input id="author" name="author" type="text" placeholder="默认为匿名，不填写也可" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>',
+
 	);
 
 	$required_text = sprintf( ' ' . __('Required fields are marked %s'), '<span class="required">*</span>' );
@@ -2289,7 +2286,6 @@ function comment_form( $args = array(), $post_id = null ) {
 							do_action( 'comment_form_logged_in_after', $commenter, $user_identity );
 							?>
 						<?php else : ?>
-							<?php echo $args['comment_notes_before']; ?>
 							<?php
 							/**
 							 * Fires before the comment fields in the comment form.

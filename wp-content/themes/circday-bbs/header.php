@@ -19,7 +19,6 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-	<?php get_template_part( 'google-ads-header', 'none' ); ?>
 	<?php do_action( 'icms_home_icon' ); ?>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
@@ -44,6 +43,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
+
 			<h1 class="site-title">
 				<?php 
 					$output = '<a href="';
@@ -53,7 +53,9 @@
 					$output .=' </a>';
 					echo apply_filters( 'icms_home_logo', $output );
 				?>
+
 			</h1>
+
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
@@ -68,7 +70,20 @@
 
 		<div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
-				<?php get_search_form(); ?>
+<?php $forum_id = bbp_get_forum_id();
+?>
+ 
+<form role="search" method="get" id="bbp-search-form" action="<?php bbp_search_url(); ?>">
+    <div align=right width=700px>
+        <label class="screen-reader-text hidden" for="bbp_search"><?php _e( '搜索:', 'bbpress' ); ?></label>
+        <input placeholder="搜索<?php the_title(); ?> " tabindex="<?php bbp_tab_index(); ?>" type="text" value="<?php echo esc_attr( bbp_get_search_terms() ); ?>" name="bbp_search" id="bbp_search" />
+        <?php if( $forum_id ): ?>
+        <input class="button" type="hidden" name="bbp_search_forum_id" value="<?php echo $forum_id; ?>" />
+        <?php endif; ?>
+        <input tabindex="<?php bbp_tab_index(); ?>" class="button" type="submit" id="bbp_search_submit" value="<?php esc_attr_e( 'Search', 'bbpress' ); ?>" />
+    </div>
+</form>
+
 			</div>
 		</div>
 	</header><!-- #masthead -->

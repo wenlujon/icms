@@ -2,7 +2,7 @@
 **/.svn
 images/**
 phpMyAdmin*
-circday*
+#circday*
 saidao*
 **/wp-content/uploads
 **/wp-content/cache
@@ -24,3 +24,8 @@ wp-config.php
 **/twentyfourteen-child
 **/twentyfourteen-photos
 **/twentyfourteen-wp
+wp-content/themes/circday-home/google-ads.php
+wp-content/themes/circday-home/google-ads-header.php
+circday*.ico
+circday_*.png
+wp-content/plugins/si-captcha-for-wordpress/captcha/cache/*

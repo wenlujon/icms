@@ -78,8 +78,6 @@ function twentyfourteen_setup() {
 	set_post_thumbnail_size( 672, 372, true );
 	add_image_size( 'twentyfourteen-full-width', 1038, 576, true );
 
-	//add_image_size( 'circday-thumb', 150, 100 ); //150 pixels wide (and unlimited height
-
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
 		'primary'   => __( 'Top primary menu', 'twentyfourteen' ),
@@ -182,7 +180,7 @@ function twentyfourteen_widgets_init() {
 		'name'          => __( 'Content Sidebar', 'twentyfourteen' ),
 		'id'            => 'sidebar-2',
 		'description'   => __( 'Additional sidebar that appears on the right.', 'twentyfourteen' ),
-		'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries">',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
@@ -238,7 +236,7 @@ function twentyfourteen_scripts() {
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.3' );
 
 	// Load our main stylesheet.
-	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri(), array(), '1.2.2' );
+	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri() );
 
 	// Load the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentyfourteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentyfourteen-style' ), '20131205' );
@@ -528,247 +526,178 @@ function remove_left_sidebar(){
 }
 add_action( 'widgets_init', 'remove_left_sidebar', 11 );
 
-function custom_excerpt_content ( $sym )
-{
-//	return ' ' . '<br>';
-	return ' ' . '[&hellip;]';
-}
-//add_filter( 'excerpt_more', 'custom_excerpt_content', 999 );
 
-
-function custom_excerpt_length( $length ) {
-	return 55;
-}
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
-
-/**
- * Output a post's first image.
- *
- * @param int $post_id Post ID.
- */
-function wpdocs_echo_first_image( $postID ) 
-{
-	$args = array(
-		'numberposts' => 1,
-		'order' => 'ASC',
-		'post_mime_type' => 'image',
-		'post_parent' => $postID,
-		'post_status' => null,
-		'post_type' => 'attachment',
-	);
-
-	$attachments = get_children( $args );
-
-	if ( $attachments ) {
-		foreach ( $attachments as $attachment ) {
-			$image_attributes = wp_get_attachment_image_src( $attachment->ID, 'medium' ) ;
-			if ($image_attributes) {
-				echo '<img src=" ' ;
-				echo $image_attributes[0];   // image src
-				echo '" class="current">';
-				break;
-			}
-		}
-	}
-}
-
-function wpdocs_get_first_image_url( $postID ) 
-{
-
-	if (has_post_thumbnail()) {
-		$post_thumbnail_id = get_post_thumbnail_id( $postID); 
-		$image_attributes = wp_get_attachment_image_src( $post_thumbnail_id, 'full' ) ;
-		if ($image_attributes) {
-			return $image_attributes[0];   // image src
-		}
-
-	}
-
-	$args = array(
-		'numberposts' => 1,
-		'order' => 'ASC',
-		'post_mime_type' => 'image',
-		'post_parent' => $postID,
-		'post_status' => null,
-		'post_type' => 'attachment',
-	);
-
-	$attachments = get_children( $args );
-
-	if ( $attachments ) {
-		foreach ( $attachments as $attachment ) {
-			$image_attributes = wp_get_attachment_image_src( $attachment->ID, 'full' ) ;
-			if ($image_attributes) {
-				return $image_attributes[0];   // image src
-			}
-		}
-	}
-
-	return null;
-}
-
-
-function bbp_get_time_since( $older_date, $newer_date = false, $gmt = false ) {
-	$original_older_date = $older_date;
-
-	// Setup the strings
-	$unknown_text   = apply_filters( 'bbp_core_time_since_unknown_text',   __( '某时',  'bbpress' ) );
-	$right_now_text = apply_filters( 'bbp_core_time_since_right_now_text', __( '刚刚', 'bbpress' ) );
-	$ago_text       = apply_filters( 'bbp_core_time_since_ago_text',       __( '%s前',    'bbpress' ) );
-
-	// array of time period chunks
-	$chunks = array(
-		array( 60 * 60 * 24 * 365 , __( '年',   'bbpress' ), __( '年',   'bbpress' ) ),
-		array( 60 * 60 * 24 * 30 ,  __( '月',  'bbpress' ), __( '月',  'bbpress' ) ),
-		array( 60 * 60 * 24 * 7,    __( '周',   'bbpress' ), __( '周',   'bbpress' ) ),
-		array( 60 * 60 * 24 ,       __( '天',    'bbpress' ), __( '天',    'bbpress' ) ),
-		array( 60 * 60 ,            __( '小时',   'bbpress' ), __( '小时',   'bbpress' ) ),
-		array( 60 ,                 __( '分钟', 'bbpress' ), __( '分钟', 'bbpress' ) ),
-		array( 1,                   __( '秒', 'bbpress' ), __( '秒', 'bbpress' ) )
-	);
-
-	if ( !empty( $older_date ) && !is_numeric( $older_date ) ) {
-		$time_chunks = explode( ':', str_replace( ' ', ':', $older_date ) );
-		$date_chunks = explode( '-', str_replace( ' ', '-', $older_date ) );
-		$older_date  = gmmktime( (int) $time_chunks[1], (int) $time_chunks[2], (int) $time_chunks[3], (int) $date_chunks[1], (int) $date_chunks[2], (int) $date_chunks[0] );
-	}
-
-	// $newer_date will equal false if we want to know the time elapsed
-	// between a date and the current time. $newer_date will have a value if
-	// we want to work out time elapsed between two known dates.
-	$newer_date = ( !$newer_date ) ? strtotime( current_time( 'mysql', $gmt ) ) : $newer_date;
-
-	// Difference in seconds
-	$since = $newer_date - $older_date;
-
-	// display xxx ago for today's date
 /*
-	if ( $since > 12886400 ) {
-		return date('Y-m-d H:i', $original_older_date);
-	}
+function my_bbp_search_form(){
+    ?>
+    <div class="bbp-search-form">
+        <?php bbp_get_template_part( 'form', 'search' ); ?>
+    </div>
+    <?php
+}
+add_action( 'bbp_template_before_single_forum', 'my_bbp_search_form' );
 */
 
-	// Something went wrong with date calculation and we ended up with a negative date.
-	if ( 0 > $since ) {
-		$output = $unknown_text;
-
-	// We only want to output two chunks of time here, eg:
-	//     x years, xx months
-	//     x days, xx hours
-	// so there's only two bits of calculation below:
-	} else {
-
-		// Step one: the first chunk
-		for ( $i = 0, $j = count( $chunks ); $i < $j; ++$i ) {
-			$seconds = $chunks[$i][0];
-
-			// Finding the biggest chunk (if the chunk fits, break)
-			$count = floor( $since / $seconds );
-			if ( 0 != $count ) {
-				break;
-			}
-		}
-
-		// If $i iterates all the way to $j, then the event happened 0 seconds ago
-		if ( !isset( $chunks[$i] ) ) {
-			$output = $right_now_text;
-
-		} else {
-
-			// Set output var
-			$output = ( 1 == $count ) ? '1'. $chunks[$i][1] : $count . '' . $chunks[$i][2];
-
-			// No output, so happened right now
-			if ( ! (int) trim( $output ) ) {
-				$output = $right_now_text;
-			}
-		}
-	}
-
-	// Append 'ago' to the end of time-since if not 'right now'
-	if ( $output != $right_now_text ) {
-		$output = sprintf( $ago_text, $output );
-	}
-
-	return apply_filters( 'bbp_get_time_since', $output, $older_date, $newer_date );
-}
-
-/**
- * Return the post date and time of a topic
- *
- * @since bbPress (r4155)
- *
- * @param int $topic_id Optional. Topic id.
- * @param bool $humanize Optional. Humanize output using time_since
- * @param bool $gmt Optional. Use GMT
- * @uses bbp_get_topic_id() To get the topic id
- * @uses get_post_time() to get the topic post time
- * @uses bbp_get_time_since() to maybe humanize the topic post time
- * @return string
+/*
+ * Search only a specific forum
  */
-function bbp_get_topic_post_date( $topic_id = 0, $humanize = false, $gmt = false ) {
-	$gmt_s  = !empty( $gmt ) ? 'U' : 'G';
-	$date   = get_post_time( $gmt_s, $gmt, $topic_id );
-	$time   = false; // For filter below
-	$result = bbp_get_time_since( $date );
+function my_bbp_filter_search_results( $r ){
+ 
+    //Get the submitted forum ID (from the hidden field added in step 2)
+    $forum_id = sanitize_title_for_query( $_GET['bbp_search_forum_id'] );
+ 
+    //If the forum ID exits, filter the query
+    if( $forum_id && is_numeric( $forum_id ) ){
+ 
+        $r['meta_query'] = array(
+            array(
+                'key' => '_bbp_forum_id',
+                'value' => $forum_id,
+                'compare' => '=',
+            )
+        );
+         
+    }
+ 
+    return $r;
+}
+add_filter( 'bbp_after_has_search_results_parse_args' , 'my_bbp_filter_search_results' );
 
-	return apply_filters( 'bbp_get_topic_post_date', $result, $topic_id, $humanize, $gmt, $date, $time );
+
+    function show_seq() {
+
+      //FORUM PAGE
+      //ie the forum pages lists all the posts in the forum, let's add a view count
+
+      $post_id = get_the_ID();
+      $count   = get_post_meta( $post_id, 'bbp_seq_test', true );
+
+
+                $bbp = bbpress();
+
+                $start_num = intval( ( $bbp->reply_query->paged - 1 ) * $bbp->reply_query->posts_per_page ) + 1;
+                $from_num  = bbp_number_format( $start_num );
+
+	$count = $count + $from_num - 1;
+
+	if ($count == 2)
+		echo "沙发";
+	else
+		echo "${count}"."楼";
+
 }
 
-function get_category_for_index() {
-	$categories = get_the_category();
- 
-	foreach ( $categories as $category ) {
-		if ( $category->name != "Uncategorized"  && $category->name != "原创" && $category->name != "新闻"  && $category->name != "专栏" ) {
-			echo esc_html( $category->name );   
-			return;
-		}
+
+
+function get_address_keys() {
+		return array(
+			'user_address_line1' => array(0, __('Address Line 1')),
+			'user_address_line2' => array(0, __('Address Line 2')),
+			'user_address_suburb' => array(0, __('Suburb')),
+			'user_address_state' => array(0, __('State')),
+			'user_address_postcode' => array(0, __('Postcode/ZIP')),
+			'user_address_country' => array(1, __('Country'))
+		);
 	}
 	
-	echo esc_html("未分类");
-}
+	add_filter('get_profile_info_keys', 'get_address_keys');
 
-function get_the_title_for_index($length = 38) {
-	$my_title = get_the_title();
 
-	$trimmed_title = wp_trim_words($my_title, $length);
-	echo '<div class="entry-title-side"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">';
-	echo $trimmed_title;
-	echo '</a></div>';
-}
+function display_cus()
+{
+	$output='';
 
-if ( ! function_exists( 'index_posted_on' ) ) :
-/**
- * Print HTML with meta information for the current post-date/time and author.
- *
- * @since Twenty Fourteen 1.0
- */
-function index_posted_on() {
-	// Set up and print post meta information.
-	printf( '<span class="entry-date-index"><a href="%1$s" rel="bookmark"><time class="entry-date-index" datetime="%2$s">%3$s</time></a></span> <span class="byline-index"><span class="author vcard"><a class="url fn n" href="%4$s" rel="author">%5$s</a></span></span>',
-		esc_url( get_permalink() ),
-		esc_attr( get_the_date( 'c' ) ),
-		bbp_get_topic_post_date(get_the_ID()),
-		esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-		get_the_author()
+	if ( !class_exists( 'BuddyPress' ) ) {
+		return;
+	}
+
+	$user_id = bbp_get_reply_author_id();
+	if ( $user_id == 0 ) return;
+
+	// show register date
+	//$output .= date("M Y", strtotime(get_userdata($user_id)->user_registered));
+	$output .= date("Y/m/d", strtotime(get_userdata($user_id)->user_registered));
+
+	echo '<div id="bbp-profile-cus">' . '注册日期: ' . '&nbsp' . $output . '</div>';
+
+	$output='';
+
+
+	$args = array(
+	    'field'     => '爱好',
+	    'user_id'   => $user_id
 	);
+	
+
+	$output .= bp_get_profile_field_data( $args );
+
+	if ( $output == '' ) return;
+
+	echo '<div id="bbp-profile-cus">' . '爱车: ' . '&nbsp' . $output . '</div>';
+
+	$output='';
+
+	$args_live = array(
+	    'field'     => '居住地',
+	    'user_id'   => $user_id
+	);
+
+	$output .= bp_get_profile_field_data( $args_live );
+
+	if ( $output == '' ) return;
+
+	echo '<div id="bbp-profile-cus">' . '居住地: ' . '&nbsp' . $output . '</div>';
 }
-endif;
 
 
-function more_posts() {
-  global $wp_query;
-  return $wp_query->current_post + 1 < $wp_query->post_count;
+add_action( 'bbp_theme_after_reply_author_details', 'display_cus'  );
+
+/*
+function custom_bbp_show_lead_topic( $show_lead ) {
+  $show_lead[] = 'true';
+  return $show_lead;
 }
+ 
+add_filter('bbp_show_lead_topic', 'custom_bbp_show_lead_topic' );
 
-function debug_to_console( $data ) {
+*/
 
-    if ( is_array( $data ) )
-        $output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
-    else
-        $output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
+/*
+function sanitize_display_name( $username, $strict ) {
+    if( !$strict )
+        return $username;
 
-    echo $output;
+
+	// strip white spaces
+	$username = preg_replace('/\s[\s]+/', '', $username);
+	$username = sanitize_user(stripslashes($username), false);
+	$username = preg_replace( '/[^\x{4e00}-\x{9fa5}a-z0-9_.\-]/u', '', $username );
+
+    return $username;
+}
+//add_filter('sanitize_user', 'ludou_non_strict_login', 999, 3);
+*/
+
+
+/*
+ * hide the users who vote the post (bbpress-votes)
+ */
+function filter_bbpvotes_get_post_votes_log ( $r, $post_id ) {
+	$r = "";
+	return $r;
+}
+add_filter('bbpvotes_get_post_votes_log', 'filter_bbpvotes_get_post_votes_log', 10, 2);
+
+
+add_filter( 'bbp_after_get_the_content_parse_args', 'bavotasan_bbpress_upload_media' );
+/**
+ * Allow upload media in bbPress
+ *
+ * This function is attached to the 'bbp_after_get_the_content_parse_args' filter hook.
+ */
+function bavotasan_bbpress_upload_media( $args ) {
+	$args['media_buttons'] = true;
+
+	return $args;
 }
 

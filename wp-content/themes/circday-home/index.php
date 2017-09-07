@@ -56,7 +56,7 @@ get_header(); ?>
 </div>
 
 		<?php
-			if ($i == 1) {
+			if ($i == 3) {
 				break;   // foreach
 				
 			}
@@ -119,9 +119,22 @@ get_header(); ?>
 
 		<?php
 			if ( have_posts() ) :
+				$iter = 0;
+				$display_once = 0;
+				$display_pos = rand(1, 7);
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
-
+					if ($display_once == 0) {
+						if ($iter == $display_pos) {
+							/* $display = rand(0, 1); */
+							$display = 1;
+							if ($display == 1) {
+								$display_once = 1;
+								get_template_part( 'google-ads', 'none' );
+							}
+						}
+						$iter++;
+					}
 					/*
 					 * Include the post format-specific template for the content. If you want to
 					 * use this in a child theme, then include a file called called content-___.php
@@ -213,7 +226,7 @@ function carousel() {
 
 
 
-	setTimeout(carousel, 4000); // Change image every 3 seconds
+	setTimeout(carousel, 8000); // Change image every 3 seconds
 }
 
 
