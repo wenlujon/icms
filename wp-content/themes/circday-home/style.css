@@ -3773,7 +3773,7 @@ a.readmore {
 	}
 
 	.primary-navigation ul ul {
-		background-color: #737373;
+		background-color: #fafafa;
 		float: left;
 		margin: 0;
 		position: absolute;
@@ -3808,7 +3808,7 @@ a.readmore {
 
 	.primary-navigation ul ul a:hover,
 	.primary-navigation ul ul li.focus > a {
-		background-color: #737373;
+		background-color: #fafafa;
 	}
 
 	.primary-navigation ul li:hover > ul,
