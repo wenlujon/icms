@@ -1040,7 +1040,7 @@ span + .edit-link:before,
 }
 
 .menu-toggle:before {
-	color: #fff;		/* 移动端导航条"三" #fff -> #666 */
+	color: #666;		/* 移动端导航条"三" #fff -> #666 */
 	content: "\f419";
 	padding: 16px;
 }
@@ -1048,7 +1048,7 @@ span + .edit-link:before,
 .menu-toggle:active,
 .menu-toggle:focus,
 .menu-toggle:hover {
-	background-color: #444;
+	background-color: #fafafa;
 }
 
 .menu-toggle:focus {
