@@ -1,5 +1,5 @@
 <?php
-define('ICMS_VERSION', 'ICMS v1.2.1');
+define('ICMS_VERSION', 'ICMS v1.3');
 
 add_filter( 'wp_mail_from', icms_mail_from, 10 );
 function icms_mail_from( $from_email )
