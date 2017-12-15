@@ -41,13 +41,16 @@ class vortex_top_likes extends WP_Widget {
 			'meta_key'			=> 'vortex_system_likes',
 			'post_type' 		=> 'post',
 			'post_status'		=> 'publish',
+			'category_name'		=> 'columns',
 
+/*
 			'date_query' => array(
 				array(
 					'column' => 'post_date_gmt',
-					'after' => '1 week ago',
+					'after' => '12 months ago',
 				),
 			),
+*/
 
 			'posts_per_page'	=> $number
 
@@ -67,6 +70,11 @@ class vortex_top_likes extends WP_Widget {
 		<ul class="rating-system-list">
 		<input id="rating-system-limit" type="hidden" value="<?php echo esc_attr($number) ?>" >
 		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
+			<?php 
+				if (is_category_has_news()) {  
+					continue; 
+				}
+			?>
 			<?php  $current_likes = get_post_meta(get_the_ID(),'vortex_system_likes',true);
 				if($current_likes >= '1'):
 				global $vortex_like_dislike;

@@ -238,7 +238,7 @@ function twentyfourteen_scripts() {
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.3' );
 
 	// Load our main stylesheet.
-	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri(), array(), '1.2.3' );
+	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri(), array(), '1.2.7' );
 
 	// Load the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentyfourteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentyfourteen-style' ), '20131205' );
@@ -720,13 +720,30 @@ function get_category_for_index() {
 	$categories = get_the_category();
  
 	foreach ( $categories as $category ) {
-		if ( $category->name != "Uncategorized"  && $category->name != "原创" && $category->name != "新闻"  && $category->name != "专栏" ) {
+		if ( $category->name != "Uncategorized"  && 
+			$category->name != "原创" && 
+			$category->name != "新闻" && 
+			$category->name != "视频" && 
+			$category->name != "专栏" ) {
 			echo esc_html( $category->name );   
 			return;
 		}
 	}
 	
 	echo esc_html("未分类");
+}
+
+
+function is_category_has_news() {
+        $categories = get_the_category();
+
+        foreach ( $categories as $category ) {
+                if ( $category->name == "新闻" ) {
+                        return true;
+                }
+        }
+
+	return false;
 }
 
 function get_the_title_for_index($length = 38) {

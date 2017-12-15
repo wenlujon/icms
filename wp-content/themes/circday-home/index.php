@@ -79,6 +79,10 @@ get_header(); ?>
 						continue;
 					} 
 
+					$post_type = get_post_format();
+					if ($post_type == "video") {
+						continue;
+					}
 					
 				print( '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">'  );
 		?>

@@ -2922,6 +2922,10 @@ a.readmore {
 	text-align: center;
 }
 
+.site-info a:hover {
+       color: rgba(255, 255, 255, 0.7);
+}
+
 .site-3rd,
 .site-friend,
 .site-friend  a {
@@ -2950,7 +2954,7 @@ a.readmore {
 }
 
 .site-footer {
-	background-color: #000000;
+	background-color: #333;
 	font-size: 12px;
 	position: relative;
 	z-index: 3;
@@ -3440,6 +3444,23 @@ a.readmore {
 		height: 70px;
 	}
 
+	
+	.post-thumbnail-img {
+		float: right;
+	}
+
+	.post-thumbnail-video {
+	font-size: 8px;
+	width: 30px;
+	height: 18px;
+	background: #ed2323;
+
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	margin-left: 10px;
+	}
+
 
 	.list-view .site-content .entry-meta-index {
 		background-color: transparent;
@@ -3469,7 +3490,7 @@ a.readmore {
 
 	.site-content .comments-link-index {
 		margin-right: 8px;
-		display: none;
+	//	display: none;
 	}
 }
 
@@ -3729,7 +3750,7 @@ a.readmore {
 	.site-navigation li .current_page_ancestor > a,
 	.site-navigation li .current-menu-item > a,
 	.site-navigation li .current-menu-ancestor > a {
-		color: #fff;
+		color: #4285f4;
 	}
 
 	/* Primary Navigation */
@@ -4879,7 +4900,7 @@ h2.slider-headline-cat a:hover {
 p.footnote {
 	color: #a9a9a9;
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 12px;
 }
 
 
@@ -4943,4 +4964,21 @@ p.footnote {
 
 #masthead {
 	border-bottom: 1px solid #ebebeb;	/* 导航条底部边线 */
+}
+
+
+.post-thumbnail-img {
+}
+
+.post-thumbnail-index .post-thumbnail-video {
+	font-size: 10px;
+	width: 33px;
+	height: 20px;
+	background: #ed2323;
+
+	color: #fff;
+	position: absolute;
+	#    left: 0;
+	#   bottom: 0;
+	text-align: center;
 }

@@ -22,11 +22,34 @@
 
 		<a href="<?php echo esc_url( get_permalink(  ) ); ?>">
 			<div class="post-thumbnail-index" href="<?php the_permalink(); ?>" aria-hidden="true">
+				<div class="post-thumbnail-img">
 			<?php
 				echo '<img src=" ' ;
 				echo $first_image;   // image src
 				echo '" class="current">';
 			?>
+			<?php
+				$post_type = get_post_format();
+				if ($post_type == "video") :
+			?>
+			<div class="post-thumbnail-video">
+				视频
+			</div>
+			<?php
+				elseif ($post_type == "gallery") :
+			?>
+
+
+			<div class="post-thumbnail-video">
+			       相册	
+			</div>
+			
+			<?php
+				endif;
+			?>
+			</div>
+
+
 			</div>
 		</a>
 

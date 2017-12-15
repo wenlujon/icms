@@ -91,7 +91,12 @@ if ( ! function_exists( 'pvc_get_most_viewed_posts' ) ) {
 			array(
 			'posts_per_page' => 10,
 			'order'			 => 'desc',
+			//'category_name'		=> 'columns',
+			'date_query' => array(
+				'after' => date('Y-m-d', strtotime('-7 days')) 
+			),
 			'post_type'		 => 'post'
+
 			), $args
 		);
 

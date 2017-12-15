@@ -236,7 +236,7 @@ function twentyfourteen_scripts() {
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.3' );
 
 	// Load our main stylesheet.
-	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri(), array(), '1.2.8' );
 
 	// Load the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'twentyfourteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentyfourteen-style' ), '20131205' );
@@ -622,6 +622,11 @@ function display_cus()
 
 	$output='';
 
+	$output = bbp_get_user_reply_count_raw($user_id) + bbp_get_user_topic_count_raw($user_id);
+
+	echo '<div id="bbp-profile-cus">' . '发帖数: ' . '&nbsp' . $output . '</div>';
+
+	$output='';
 
 	$args = array(
 	    'field'     => '爱好',
@@ -701,3 +706,12 @@ function bavotasan_bbpress_upload_media( $args ) {
 	return $args;
 }
 
+function bbp_is_poster( ) {
+	$post_id = bbp_get_reply_topic_id();
+	$reply_id = bbp_get_reply_id();
+
+	$post_author_id = get_post_field( 'post_author', $post_id );
+	$reply_author_id = get_post_field( 'post_author', $reply_id );
+
+	return ($post_author_id == $reply_author_id);
+}

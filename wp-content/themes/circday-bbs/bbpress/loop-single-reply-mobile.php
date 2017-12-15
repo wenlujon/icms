@@ -11,10 +11,14 @@
 
 <div id="post-<?php bbp_reply_id(); ?>" class="bbp-reply-header">
 
-	<div class="bbp-meta">
+	<div class="bbp-meta-mobile">
 
-		<?php bbp_reply_author_link( array( 'show_role' => false, 'size' => 2, 'type' => name ) ); ?>
+		<?php bbp_reply_author_link( array( 'show_role' => false, 'size' => 20, 'type' => 'both') ); ?>
+		<?php if ( bbp_is_poster() ) : ?>
+		<span class="bbp-reply-poster">楼主</span>
+		<?php endif; ?>
 		<br />
+	<div>
 		<span class="bbp-reply-post-date">发表于<?php bbp_reply_post_date(0, true); ?></span>
 
 		<?php if ( bbp_is_single_user_replies() ) : ?>
@@ -25,8 +29,11 @@
 			</span>
 
 		<?php endif; ?>
+	</div>
+	<div class="bbp-position-mobile">
 
-		<a href="<?php bbp_reply_url(); ?>" class="bbp-reply-permalink"><?php bbp_reply_position(); ?></a>
+		<span><a href="<?php bbp_reply_url(); ?>" class="bbp-reply-permalink"><?php bbp_reply_position(); ?></a></span>
+	</div>
 
 	</div><!-- .bbp-meta -->
 
